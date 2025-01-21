@@ -1,0 +1,3467 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "anbennarescann",
+				"full": "Anbennar: Adventures in Escann",
+				"abbreviation": "ANB",
+				"color": "245269",
+				"authors": [
+					"Rileyo"
+				],
+				"convertedBy": [
+					"Fireshark"
+				],
+				"version": "0.4"
+			}
+		],
+		"dependencies": {
+			"race": [
+				"XPHB",
+				"MPMM",
+				"VRGR",
+				"SCC"
+			]
+		},
+		"dateAdded": 1736814989,
+		"dateLastModified": 1736814989,
+		"edition": "one",
+		"status": "wip"
+	},
+	"race": [
+		{
+			"name": "Human",
+			"source": "ANB",
+			"_copy": {
+				"name": "Human",
+				"source": "XPHB",
+				"_mod": {
+					"entries": [
+						{
+							"mode": "prependArr",
+							"items": {
+								"name": "Age",
+								"type": "entries",
+								"entries": [
+									"Humans reach adulthood at around 16-18 years old and can usually live up to 80 years, some magic can extend their lifespan for up to 200 years."
+								]
+							}
+						}
+					]
+				}
+			},
+			"size": [
+				"M"
+			],
+			"sizeEntry": {
+				"type": "item",
+				"name": "Size:",
+				"entries": [
+					"Medium (about 4-7 feet tall)"
+				]
+			}
+		},
+		{
+			"name": "Elf",
+			"source": "ANB",
+			"edition": "one",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"insight",
+							"investigation",
+							"perception"
+						]
+					}
+				}
+			],
+			"toolProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"calligrapher's supplies",
+							"glassblower's tools",
+							"painter's supplies",
+							"woodcarver's tools"
+						]
+					}
+				}
+			],
+			"sizeEntry": {
+				"type": "item",
+				"name": "Size:",
+				"entries": [
+					"Medium (about 5-6 feet tall)"
+				]
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Elves do mature at the same rate as humans and can live to be 400 years old. While elves do mature at the same rate as humans, traditional elven societies like Elfrealms or isolationist families and clans have a more strict definition of cultural maturity depending on one's age, often waiting till the age of 100 before an elf is considered an adult in those societies."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Elven Physiology",
+					"entries": [
+						"You have {@variantrule advantage|XPHB} on saving throws against disease, illnesses, the {@condition charmed} condition and magic can’t put you to sleep."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Keen Senses",
+					"entries": [
+						"You have {@variantrule Proficiency|XPHB} in one of the following skills of your choosing: {@skill Insight}, {@skill Investigation}, or {@skill Perception}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tool Proficiency",
+					"entries": [
+						"You gain {@variantrule Proficiency|XPHB} with the artisan's tools of your choice: {@item calligrapher's supplies|XPHB}, {@item glassblower's tools|XPHB}, {@item painter's supplies|XPHB}, or {@item woodcarver's tools|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Elven Cultures",
+					"entries": [
+						"The elves are split up culturally; the Moon Elves which are distributed across Cannor, Wood Elves who inhabit the Deepwoods, Sun Elves & Desert Elves which are found in Western and Eastern Bulwar, Sunrise Elves who are sparsely distrubuted in Haless, Sea Elves whom are elves which remained on the remanent fleet, and Eladrin whom are elves which have been infused with Fey Magic."
+					]
+				}
+			]
+		},
+		{
+			"name": "Half-Elf",
+			"source": "ANB",
+			"edition": "one",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"skillProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"sizeEntry": {
+				"type": "item",
+				"name": "Size:",
+				"entries": [
+					"Medium (about 5-6 feet tall)"
+				]
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Half-elves age at much the same rate as humans, reaching adulthood at the age of 20. Their lifespan depends on the strength of elven bood within them, with 100 being a common age."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Elven Physiology",
+					"entries": [
+						"You have {@variantrule advantage|XPHB} on saving throws against disease, illnesses, the {@condition charmed} condition and magic can’t put you to sleep."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resourceful",
+					"entries": [
+						"You gain {@variantrule Heroic Inspiration|XPHB} whenever you finish a {@variantrule Long Rest|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Skillful",
+					"entries": [
+						"You gain {@variantrule Proficiency|XPHB} in one skill or tool of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Elven Legacy",
+					"entries": [
+						"You take the legacy of your associated elven heritage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Orc",
+			"source": "ANB",
+			"edition": "one",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"darkvision": 120,
+			"traitTags": [
+				"Powerful Build"
+			],
+			"sizeEntry": {
+				"type": "item",
+				"name": "Size:",
+				"entries": [
+					"Medium (about 6-7 feet tall)"
+				]
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Orcs generally follow the same lifespan and ageing as humans, reaching adulthood at 16 and living to 80 years. However, violent lives often leads to a short life whilst magic could theoretically extend their lifespan up to 200."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You have {@sense Darkvision|XPHB} with a range of 120 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Relentless Endurance",
+					"entries": [
+						"When you are reduced to 0 {@variantrule Hit Points|XPHB} but not killed outright, you can drop to 1 {@variantrule Hit Points|XPHB|Hit Point} instead. Once you use this trait, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Orcish Culture",
+					"entries": [
+						"There is three cultures of Orcs, Green Orcs are found across Escann and are the most common found in the setting, whilist Grey Orcs are found in the colder north, mostly within Grombar. Black Orcs mostly stir deep in the darkness of the Serpentspine, well adapted to the underground."
+					]
+				}
+			]
+		},
+		{
+			"name": "Half-Orc",
+			"source": "ANB",
+			"edition": "one",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"skillProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"sizeEntry": {
+				"type": "item",
+				"name": "Size:",
+				"entries": [
+					"Medium (about 5-7 feet tall)"
+				]
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Half-Orcs generally follow the same lifespan and ageing as humans, reaching adulthood at 16 and living to 80 years. However, violence often shorten this whilst magic could theoretically extend their lifespan up to 200."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Relentless Endurance",
+					"entries": [
+						"When you are reduced to 0 {@variantrule Hit Points|XPHB} but not killed outright, you can drop to 1 {@variantrule Hit Points|XPHB|Hit Point} instead. Once you use this trait, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resourceful",
+					"entries": [
+						"You gain {@variantrule Heroic Inspiration|XPHB} whenever you finish a {@variantrule Long Rest|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Skillful",
+					"entries": [
+						"You gain {@variantrule Proficiency|XPHB} in one skill of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Orcish Legacy",
+					"entries": [
+						"You take the legacy of your chosen Orcish Heritage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Olf",
+			"source": "ANB",
+			"edition": "one",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"sizeEntry": {
+				"type": "item",
+				"name": "Size:",
+				"entries": [
+					"Medium (about 5-7 feet tall)"
+				]
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Olfs age at much the same rate as orcs, reaching adulthood at the age of 20. They live longer than orcs, however, often living to 200 years."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Relentless Endurance",
+					"entries": [
+						"When you are reduced to 0 {@variantrule Hit Points|XPHB} but not killed outright, you can drop to 1 {@variantrule Hit Points|XPHB|Hit Point} instead. Once you use this trait, you can't do so again until you finish a {@variantrule Long Rest|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Olfish Legacy",
+					"entries": [
+						"You may take one Elven or Orcish Heritage of your choice that corresponds to your heritage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Dwarf",
+			"source": "ANB",
+			"_copy": {
+				"name": "Dwarf",
+				"source": "XPHB",
+				"_mod": {
+					"entries": [
+						{
+							"mode": "prependArr",
+							"items": {
+								"name": "Age",
+								"type": "entries",
+								"entries": [
+									"Dwarves mature at the same rate as humans but are considered young until the age of 50 and live to beyond 200 years."
+								]
+							}
+						},
+						{
+							"mode": "appendArr",
+							"items": {
+								"type": "entries",
+								"name": "Dwarven Cultures",
+								"entries": [
+									"In addition, there is 3 distinct dwarven cultures: Hold Dwarfs, Imperial Dwarfs & Adventurer Dwarfs."
+								]
+							}
+						}
+					]
+				}
+			}
+		},
+		{
+			"name": "Halfling",
+			"source": "ANB",
+			"_copy": {
+				"name": "Halfling",
+				"source": "XPHB",
+				"_mod": {
+					"entries": [
+						{
+							"mode": "prependArr",
+							"items": {
+								"name": "Age",
+								"type": "entries",
+								"entries": [
+									"Halflings mature at the same rate as humans, reaching adulthood around 16-18 and living up to 80 years though they can exceed 100."
+								]
+							}
+						},
+						{
+							"mode": "appendArr",
+							"items": {
+								"type": "entries",
+								"name": "Halfling Resilience",
+								"entries": [
+									"You have {@variantrule Advantage|XPHB} on saving throws against poison, and you have {@variantrule resistance|XPHB} to poison damage."
+								]
+							}
+						},
+						{
+							"mode": "appendArr",
+							"items": {
+								"type": "entries",
+								"name": "Halfling Cultures",
+								"entries": [
+									"In addition, there is 3 distinct cultures: Imperial Halflings, County Halflings & Newshire Halflings."
+								]
+							}
+						}
+					]
+				}
+			},
+			"sizeEntry": {
+				"type": "item",
+				"name": "Size:",
+				"entries": [
+					"Small (about 3-4 feet tall)"
+				]
+			}
+		},
+		{
+			"name": "Gnome",
+			"source": "ANB",
+			"_copy": {
+				"name": "Gnome",
+				"source": "XPHB",
+				"_mod": {
+					"entries": [
+						{
+							"mode": "prependArr",
+							"items": {
+								"name": "Damestear Connection",
+								"type": "entries",
+								"entries": [
+									"You have an additional Attunement slot which can be used to attune to only a common, uncommon, or rare magic item."
+								]
+							}
+						},
+						{
+							"mode": "prependArr",
+							"items": {
+								"name": "Age",
+								"type": "entries",
+								"entries": [
+									"Due to long term exposure to Damestear, Gnomes take slightly longer to mature compared to halflings, reaching their adulthood at around 30. They live significantly longer though, living to 250 years often."
+								]
+							}
+						},
+						{
+							"mode": "replaceArr",
+							"replace": "Gnomish Lineage",
+							"items": {
+								"type": "entries",
+								"name": "Gnomish Inventions",
+								"entries": [
+									"You know the {@spell Mending|XPHB} and {@spell Prestidigitation|XPHB} cantrips. In addition, you can spend 10 minutes casting {@spell Prestidigitation|XPHB} to create a Tiny clockwork device (AC 5, 1 HP), such as a toy, fire starter, or music box. When you create the device, you determine its function by choosing one effect from {@spell Prestidigitation|XPHB}; the device produces that effect whenever you or another creature takes a {@variantrule Bonus Action|XPHB} to activate it with a touch. If the chosen effect has options within it, you choose one of those options for the device when you create it. For example, if you choose the spell's ignite-extinguish effect, you determine whether the device ignites or extinguishes fire; the device doesn't do both. You can have three such devices in existence at a time, and each falls apart 8 hours after its creation or when you dismantle it with a touch as a {@action Utilize|XPHB} action."
+								]
+							}
+						},
+						{
+							"mode": "removeArr",
+							"names": "Darkvision"
+						}
+					],
+					"versions": "remove",
+					"darkvision": "remove"
+				}
+			},
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"1": [
+							"mending|xphb#c",
+							"prestidigitation|xphb#c"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Goblin",
+			"source": "ANB",
+			"edition": "one",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"size": [
+				"S"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"sizeEntry": {
+				"type": "item",
+				"name": "Size:",
+				"entries": [
+					"Small (about 3-4 feet tall)"
+				]
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Goblins mature quicker than other races, reaching adulthood at 12 and living to 60 years. However, their tendency to meddle with things they shouldn't meddle with often cuts these lives even shorter."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You gain 60 feet of {@sense Darkvision|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fury of the Small",
+					"entries": [
+						"When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your {@variantrule Proficiency|XPHB|Proficiency Bonus}.",
+						"You can use this trait a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, regaining all expended uses when you finish a {@variantrule Long Rest|XPHB}, and you can use it no more than once per turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Nimble Escape",
+					"entries": [
+						"You can take the {@action Disengage} or {@action Hide} action as a {@variantrule Bonus Action|XPHB} on each of your turns."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Goblin Cultures",
+					"entries": [
+						"In addition, there is 3 distinct cultures: Cave, Escanni & Fey-Touched."
+					]
+				}
+			]
+		},
+		{
+			"name": "Kobold",
+			"source": "ANB",
+			"_copy": {
+				"name": "Kobold",
+				"source": "MPMM"
+			},
+			"edition": "one",
+			"_versions": [
+				{
+					"name": "Kobold; Craftiness",
+					"source": "ANB",
+					"_mod": {
+						"entries": {
+							"mode": "replaceArr",
+							"replace": "Kobold Legacy",
+							"items": {
+								"name": "Kobold Legacy (Craftiness)",
+								"type": "entries",
+								"entries": [
+									"You have proficiency in one of the following skills of your choice: {@skill Arcana}, {@skill Investigation}, {@skill Medicine}, {@skill Sleight of Hand}, or {@skill Survival}."
+								]
+							}
+						}
+					},
+					"additionalSpells": null
+				},
+				{
+					"name": "Kobold; Defiance",
+					"source": "ANB",
+					"_mod": {
+						"entries": {
+							"mode": "replaceArr",
+							"replace": "Kobold Legacy",
+							"items": {
+								"name": "Kobold Legacy (Defiance)",
+								"type": "entries",
+								"entries": [
+									"You have advantage on saving throws to avoid or end the {@condition frightened} condition on yourself."
+								]
+							}
+						}
+					},
+					"skillProficiencies": null,
+					"additionalSpells": null
+				},
+				{
+					"name": "Kobold; Draconic Sorcery",
+					"source": "ANB",
+					"_mod": {
+						"entries": {
+							"mode": "replaceArr",
+							"replace": "Kobold Legacy",
+							"items": {
+								"name": "Kobold Legacy (Draconic Sorcery)",
+								"type": "entries",
+								"entries": [
+									"You know one {@filter cantrip of your choice from the sorcerer spell list|spells|level=0|class=Sorcerer}. Intelligence, Wisdom, or Charisma is your spellcasting ability for that cantrip (choose when you select this race)."
+								]
+							}
+						}
+					},
+					"skillProficiencies": null
+				}
+			]
+		},
+		{
+			"name": "Goliath",
+			"source": "ANB",
+			"_copy": {
+				"name": "Goliath",
+				"source": "MPMM"
+			},
+			"edition": "one"
+		},
+		{
+			"name": "Harpy",
+			"source": "ANB",
+			"edition": "one",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Harpies mature at the same rate as humans and live to 60 to 100 years, depending on the lineage of their father."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mono-Gendered",
+					"entries": [
+						"Harpies are exclusively female, requiring a male of another race to reproduce."
+					]
+				}
+			]
+		},
+		{
+			"name": "Tiefling",
+			"source": "ANB",
+			"_copy": {
+				"name": "Tiefling",
+				"source": "XPHB"
+			},
+			"_versions": [
+				{
+					"name": "Tiefling; Abyssal Legacy",
+					"source": "ANB",
+					"_mod": {
+						"entries": {
+							"mode": "replaceArr",
+							"replace": "Fiendish Legacy",
+							"items": {
+								"name": "Fiendish Legacy (Abyssal)",
+								"type": "entries",
+								"entries": [
+									"You are the recipient of a legacy that grants you supernatural abilities. You have {@variantrule Resistance|XPHB} to Poison damage. You also know the {@spell Poison Spray|XPHB} cantrip.",
+									"When you reach character level 3, you learn the {@spell Ray of Sickness|XPHB} spell. When you reach character level 5, you also learn the {@spell Hold Person|XPHB} spell. You always have these spells prepared, and you can cast each spell once without a spell slot. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a {@variantrule Long Rest|XPHB}. You can also cast the spell using any spell slots you have of the appropriate level.",
+									"Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy)."
+								]
+							}
+						}
+					},
+					"darkvision": 120,
+					"resist": [
+						"poison"
+					],
+					"additionalSpells": [
+						{
+							"innate": {
+								"3": {
+									"daily": {
+										"1": [
+											"ray of sickness|xphb"
+										]
+									}
+								},
+								"5": {
+									"daily": {
+										"1": [
+											"hold person|xphb"
+										]
+									}
+								}
+							},
+							"ability": {
+								"choose": [
+									"int",
+									"wis",
+									"cha"
+								]
+							},
+							"known": {
+								"1": [
+									"thaumaturgy|xphb#c",
+									"poison spray|xphb#c"
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "Tiefling; Chthonic Legacy",
+					"source": "ANB",
+					"_mod": {
+						"entries": {
+							"mode": "replaceArr",
+							"replace": "Fiendish Legacy",
+							"items": {
+								"name": "Fiendish Legacy (Chthonic)",
+								"type": "entries",
+								"entries": [
+									"You are the recipient of a legacy that grants you supernatural abilities. You have {@variantrule Resistance|XPHB} to Necrotic damage. You also know the {@spell Chill Touch|XPHB} cantrip.",
+									"When you reach character level 3, you learn the {@spell False Life|XPHB} spell. When you reach character level 5, you also learn the {@spell Ray of Enfeeblement|XPHB} spell. You always have these spells prepared, and you can cast each spell once without a spell slot. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a {@variantrule Long Rest|XPHB}. You can also cast the spell using any spell slots you have of the appropriate level.",
+									"Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy)."
+								]
+							}
+						}
+					},
+					"resist": [
+						"necrotic"
+					],
+					"additionalSpells": [
+						{
+							"innate": {
+								"3": {
+									"daily": {
+										"1": [
+											"false life|xphb"
+										]
+									}
+								},
+								"5": {
+									"daily": {
+										"1": [
+											"ray of enfeeblement|xphb"
+										]
+									}
+								}
+							},
+							"ability": {
+								"choose": [
+									"int",
+									"wis",
+									"cha"
+								]
+							},
+							"known": {
+								"1": [
+									"thaumaturgy|xphb#c",
+									"chill touch|xphb#c"
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "Tiefling; Infernal Legacy",
+					"source": "ANB",
+					"_mod": {
+						"entries": {
+							"mode": "replaceArr",
+							"replace": "Fiendish Legacy",
+							"items": {
+								"name": "Fiendish Legacy (Infernal)",
+								"type": "entries",
+								"entries": [
+									"You are the recipient of a legacy that grants you supernatural abilities. You have {@variantrule Resistance|XPHB} to Fire damage. You also know the {@spell Fire Bolt|XPHB} cantrip.",
+									"When you reach character level 3, you learn the {@spell Hellish Rebuke|XPHB} spell. When you reach character level 5, you also learn the {@spell Darkness|XPHB} spell. You always have these spells prepared, and you can cast each spell once without a spell slot. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a {@variantrule Long Rest|XPHB}. You can also cast the spell using any spell slots you have of the appropriate level.",
+									"Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy)."
+								]
+							}
+						}
+					},
+					"resist": [
+						"fire"
+					],
+					"additionalSpells": [
+						{
+							"innate": {
+								"3": {
+									"daily": {
+										"1": [
+											"hellish rebuke|xphb"
+										]
+									}
+								},
+								"5": {
+									"daily": {
+										"1": [
+											"darkness|xphb"
+										]
+									}
+								}
+							},
+							"ability": {
+								"choose": [
+									"int",
+									"wis",
+									"cha"
+								]
+							},
+							"known": {
+								"1": [
+									"thaumaturgy|xphb#c",
+									"fire bolt|xphb#c"
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Aasimar",
+			"source": "ANB",
+			"_copy": {
+				"name": "Aasimar",
+				"source": "XPHB"
+			}
+		},
+		{
+			"name": "Dhampir",
+			"source": "ANB",
+			"_copy": {
+				"name": "Dhampir",
+				"source": "VRGR"
+			},
+			"edition": "one"
+		},
+		{
+			"name": "Planetouched",
+			"source": "ANB",
+			"_copy": {
+				"name": "Genasi",
+				"source": "MPMM"
+			},
+			"edition": "one"
+		},
+		{
+			"name": "Centaur",
+			"source": "ANB",
+			"_copy": {
+				"name": "Centaur",
+				"source": "MPMM",
+				"_mod": {
+					"entries": [
+						{
+							"mode": "prependArr",
+							"items": {
+								"name": "Age",
+								"type": "entries",
+								"entries": [
+									"Centaurs mature at the same rate as humans and live to on average up to 80 years, although the harsh environments they often live in reduces the average."
+								]
+							}
+						},
+						{
+							"mode": "removeArr",
+							"names": [
+								"Creature Type"
+							]
+						}
+					]
+				}
+			},
+			"edition": "one",
+			"creatureTypes": [
+				"humanoid"
+			]
+		},
+		{
+			"name": "Gnoll",
+			"source": "ANB",
+			"edition": "one",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"traitTags": [
+				"Natural Weapon"
+			],
+			"sizeEntry": {
+				"type": "item",
+				"name": "Size:",
+				"entries": [
+					"Medium (about 6-8 feet tall)"
+				]
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Gnolls mature and can live a similar lifespan to humans but historically average around 30-40 years due to deaths from violence."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bite",
+					"entries": [
+						"Your bite is considered a unarmed strike with the light and nick properties. If you hit with it, you deal piercing damage equal to {@damage 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Scavenger",
+					"entries": [
+						"You gain {@variantrule resistance|XPHB} to poison damage, and you have {@variantrule Advantage|XPHB} on saving throws against disease and poison, and you automatically succeed Survival checks to scavenge for food for yourself as your body can digest raw and even rotting food."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rampage",
+					"entries": [
+						"Immediately after you reduce a creature to 0 hit points with a melee attack on your turn, you can use a bonus action to move up to half of your speed and make an additional attack with your bite or with a melee weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pack Animal",
+					"entries": [
+						"You can use the {@action Help|XPHB} action as a {@variantrule Bonus Action|XPHB}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Harimari",
+			"source": "ANB",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"traitTags": [
+				"Natural Weapon"
+			],
+			"sizeEntry": {
+				"type": "item",
+				"name": "Size:",
+				"entries": [
+					"Medium (about 6-8 feet tall)"
+				]
+			},
+			"skillProficiencies": [
+				{
+					"perception": true,
+					"choose": {
+						"from": [
+							"arcana",
+							"history",
+							"investigation",
+							"nature",
+							"religion"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Harimari reach adulthood at around 12 - 15 years old and can live for up to 75 years."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You have 60 feet of {@sense Darkvision|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Claws",
+					"entries": [
+						"Your claws are considered unarmed strikes with the light and nick properties. You are considered proficient with them, and you can use your strength or dexterity modifier for the attack. If you hit with them, you can deal slashing damage equal to {@damage 1d6} + your Strength or Dexterity modifier."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Philosopher Kings",
+					"entries": [
+						"You have proficiency in Perception and one intelligence skill of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Daunting Roar",
+					"entries": [
+						"As a {@variantrule Bonus Action|XPHB}, you can let out an especially menacing roar. Creatures of your choice within 10 feet of you that can hear you must succeed on a Wisdom saving throw or become {@condition frightened|XPHB} of you until the end of your next turn. The DC of the save equals 8 + your proficiency bonus + your Constitution or Charisma modifier. Once you use this trait, you can't use it again until you finish a {@variantrule short rest|XPHB|short} or {@variantrule long rest|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feline Agility",
+					"entries": [
+						"Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns."
+					]
+				}
+			]
+		},
+		{
+			"name": "Satyr",
+			"source": "ANB",
+			"_copy": {
+				"name": "Satyr",
+				"source": "MPMM",
+				"_mod": {
+					"entries": [
+						{
+							"mode": "prependArr",
+							"items": {
+								"name": "Age",
+								"type": "entries",
+								"entries": [
+									"Satyrs age and mature at the same rate as Centaurs."
+								]
+							}
+						},
+						{
+							"mode": "removeArr",
+							"names": [
+								"Creature Type"
+							]
+						}
+					]
+				}
+			},
+			"edition": "one",
+			"creatureTypes": [
+				"humanoid"
+			]
+		},
+		{
+			"name": "Hexblood",
+			"source": "ANB",
+			"_copy": {
+				"name": "Hexblood",
+				"source": "VRGR",
+				"_mod": {
+					"entries": [
+						{
+							"mode": "prependArr",
+							"items": {
+								"name": "Age",
+								"type": "entries",
+								"entries": [
+									"Hexbloods vary wildly due to the fey involvement. Sometimes, they can live to barely 30 whilst other cases suggest hundreds of years depending on the ancestry."
+								]
+							}
+						},
+						{
+							"mode": "removeArr",
+							"names": [
+								"Creature Type"
+							]
+						}
+					]
+				}
+			},
+			"edition": "one",
+			"creatureTypes": [
+				"humanoid"
+			]
+		},
+		{
+			"name": "Shifter",
+			"source": "ANB",
+			"_copy": {
+				"name": "Shifter",
+				"source": "MPMM",
+				"_mod": {
+					"entries": [
+						{
+							"mode": "prependArr",
+							"items": {
+								"name": "Age",
+								"type": "entries",
+								"entries": [
+									"Depends on the original ancestry."
+								]
+							}
+						}
+					]
+				}
+			},
+			"size": [
+				"S",
+				"M"
+			],
+			"edition": "one",
+			"creatureTypes": [
+				"humanoid"
+			]
+		},
+		{
+			"name": "Lizardfolk",
+			"source": "ANB",
+			"_copy": {
+				"name": "Lizardfolk",
+				"source": "MPMM",
+				"_mod": {
+					"entries": [
+						{
+							"mode": "prependArr",
+							"items": {
+								"name": "Age",
+								"type": "entries",
+								"entries": [
+									"Lizardfolk often live up to 100 years, with adulthood being swiftly reached by the age of 10."
+								]
+							}
+						}
+					]
+				}
+			},
+			"edition": "one"
+		},
+		{
+			"name": "Red Dragonborn",
+			"source": "ANB",
+			"edition": "one",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"sizeEntry": {
+				"type": "item",
+				"name": "Size:",
+				"entries": [
+					"Medium (about 5-7 feet tall)"
+				]
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Red Draconic Ancestry",
+					"entries": [
+						"Your lineage stems from a red (fire) dragon progenitor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Breath Weapon",
+					"entries": [
+						"When you take the {@action Attack|XPHB} action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot {@variantrule Cone [Area of Effect]|XPHB|Cone} or a 30-foot {@variantrule Line [Area of Effect]|XPHB|Line} that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw ({@dc 8} plus your Constitution modifier and {@variantrule Proficiency|XPHB|Proficiency Bonus}). On a failed save, a creature takes {@damage 1d10} fire damage. On a successful save, a creature takes half as much damage. This damage increases by {@damage 1d10} when you reach character levels 5 ({@damage 2d10}), 11 ({@damage 3d10}), and 17 ({@damage 4d10}).",
+						"You can use this Breath Weapon a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Damage Resistance",
+					"entries": [
+						"You have {@variantrule Resistance|XPHB} to fire damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You have {@sense Darkvision|XPHB} with a range of 60 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Draconic Gift",
+					"entries": [
+						"When you reach character level 5, you can channel draconic magic to give yourself one of the following (your choice when you reach level 5).",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Draconic Flight",
+									"entries": [
+										"You can channel draconic magic to give yourself temporary flight. As a {@variantrule Bonus Action|XPHB}, you sprout spectral wings on your back that last for 10 minutes or until you retract the wings (no action required) or have the {@condition Incapacitated|XPHB} condition. During that time, you have a {@variantrule Fly Speed|XPHB} equal to your {@variantrule Speed|XPHB}. Your wings appear to be made of the same energy as your Breath Weapon. Once you use this trait, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Chromatic Warding (Fire)",
+									"entries": [
+										"You can channel your draconic energy to protect yourself. As an {@variantrule Action|XPHB} you become immune to fire damage for 1 minute. Once you use this trait, you can't do so again until you finish a {@variantrule long rest|XPHB}."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"resist": [
+				"fire"
+			],
+			"_versions": [
+				{
+					"name": "Red Dragonborn (Flight)",
+					"source": "ANB",
+					"_mod": {
+						"entries": {
+							"mode": "replaceArr",
+							"replace": "Draconic Gift",
+							"items": {
+								"name": "Draconic Flight",
+								"entries": [
+									"When you reach character level 5, you can channel draconic magic to give yourself temporary flight. As a {@variantrule Bonus Action|XPHB}, you sprout spectral wings on your back that last for 10 minutes or until you retract the wings (no action required) or have the {@condition Incapacitated|XPHB} condition. During that time, you have a {@variantrule Fly Speed|XPHB} equal to your {@variantrule Speed|XPHB}. Your wings appear to be made of the same energy as your Breath Weapon. Once you use this trait, you can't use it again until you finish a {@variantrule Long Rest|XPHB}."
+								]
+							}
+						}
+					}
+				},
+				{
+					"name": "Red Dragonborn (Warding)",
+					"source": "ANB",
+					"_mod": {
+						"entries": {
+							"mode": "replaceArr",
+							"replace": "Draconic Gift",
+							"items": {
+								"name": "Chromatic Warding (Fire)",
+								"entries": [
+									"When you reach character level 5, you can channel your draconic energy to protect yourself. As an {@variantrule Action|XPHB} you become immune to fire damage for 1 minute. Once you use this trait, you can't do so again until you finish a {@variantrule long rest|XPHB}."
+								]
+							}
+						}
+					}
+				}
+			]
+		}
+	],
+	"subrace": [
+		{
+			"name": "Moon Elf",
+			"source": "ANB",
+			"raceName": "Elf",
+			"raceSource": "ANB",
+			"entries": [
+				{
+                    "name": "Veterans of the Sorcerer King's War",
+                    "type": "entries",
+                    "entries": [
+                        "You gain {@variantrule Proficiency|XPHB} with the {@item longbow|XPHB}, {@item longsword|XPHB} and {@item shortsword|XPHB}."
+                    ]
+				},
+				{
+                    "name": "Moon Elven Magic",
+                    "type": "entries",
+                    "entries": [
+                        "You know the {@spell Prestidigitation|XPHB} cantrip. Whenever you finish a {@variantrule Long Rest|XPHB}, you can replace that cantrip with a different cantrip from the Arcane Spell List.",
+						"When you reach 3rd level, you can cast the {@spell Detect Magic|XPHB} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell Misty Step|XPHB} spell once and regain the ability to do so when you finish a long rest. You pick between Intelligence, Wisdom or Charisma as your spellcasting ability for these spells."
+                    ]
+				},
+				{
+                    "name": "Dame's Knowledge",
+                    "type": "entries",
+                    "entries": [
+                        "You gain {@variantrule expertise|XPHB} in one skill that you are proficient in."
+                    ]
+				},
+				{
+                    "name": "Cannorian Cosmopolite",
+                    "type": "entries",
+                    "entries": [
+                        "You can read, speak, and write one additional language of your choice."
+                    ]
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"longbow|xphb": true,
+					"longsword|xphb": true,
+					"shortsword|xphb": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"detect magic|xphb"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"misty step|xphb"
+								]
+							}
+						}
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"1": [
+							"prestidigitation|xphb#c"
+						]
+					}
+				}
+			],
+			"expertise": [
+				{
+					"anyProficientSkill": 1
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 1
+				}
+			]
+		},
+		{
+			"name": "Wood Elf",
+			"source": "ANB",
+			"raceName": "Elf",
+			"raceSource": "ANB",
+			"entries": [
+				{
+                    "name": "Asymmetric Warfare",
+                    "type": "entries",
+                    "entries": [
+                        "You gain {@variantrule Proficiency|XPHB} with the {@item longbow|XPHB}, {@item scimitar|XPHB} and {@item shortsword|XPHB}."
+                    ]
+				},
+				{
+                    "name": "Fey Magic",
+                    "type": "entries",
+                    "entries": [
+                        "You know the {@spell Dancing Lights|XPHB} cantrip.",
+						"When you reach 3rd level, you can cast the {@spell Longstrider|XPHB} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell Pass without Trace|XPHB} spell once and regain the ability to do so when you finish a long rest. You pick between Intelligence, Wisdom or Charisma as your spellcasting ability for these spells."
+                    ]
+				},
+				{
+                    "name": "Gift of Adaptation",
+                    "type": "entries",
+                    "entries": [
+                        "You gain 60 ft of {@sense Darkvision|XPHB}. In addition, you have {@variantrule advantage|XPHB} on Dexterity ({@skill acrobatics}) checks to keep your balance."
+                    ]
+				},
+				{
+                    "name": "Warriors of the Deepwoods",
+                    "type": "entries",
+                    "entries": [
+                        "You can attempt to {@action hide|XPHB} even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena. In addition, your base walking speed is equal to 35 feet."
+                    ]
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"longbow|xphb": true,
+					"scimitar|xphb": true,
+					"shortsword|xphb": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"longstrider|xphb"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"pass without trace|xphb"
+								]
+							}
+						}
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"1": [
+							"dancing lights|xphb#c"
+						]
+					}
+				}
+			],
+			"darkvision": 60,
+			"speed": 35
+		},
+		{
+			"name": "Sun Elf",
+			"source": "ANB",
+			"raceName": "Elf",
+			"raceSource": "ANB",
+			"entries": [
+				{
+                    "name": "Bulwark Against the Malevolent Dark",
+                    "type": "entries",
+                    "entries": [
+                        "You gain {@variantrule Proficiency|XPHB} with the {@item lance|XPHB}, {@item longbow|XPHB} and {@item pike|XPHB}."
+                    ]
+				},
+				{
+                    "name": "Suraelic Magic",
+                    "type": "entries",
+                    "entries": [
+                        "You know the {@spell Light|XPHB} cantrip.",
+						"When you reach 3rd level, you can cast the {@spell Divine Favour|XPHB} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell Darkvision|XPHB} spell once and regain the ability to do so when you finish a long rest. You pick between Intelligence, Wisdom or Charisma as your spellcasting ability for these spells.",
+						"When you cast {@spell Darkvision|XPHB}, as part of this spell, you treat magical darkness as if it was normal darkness."
+                    ]
+				},
+				{
+                    "name": "Surael Protects",
+                    "type": "entries",
+                    "entries": [
+                        "You have {@variantrule resistance|XPHB} to necrotic damage."
+                    ]
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"lance|xphb": true,
+					"longbow|xphb": true,
+					"pike|xphb": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"divine favour|xphb"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"darkvision|xphb"
+								]
+							}
+						}
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"1": [
+							"light|xphb#c"
+						]
+					}
+				}
+			],
+			"resist": [
+				"necrotic"
+			]
+		},
+		{
+			"name": "Desert Elf",
+			"source": "ANB",
+			"raceName": "Elf",
+			"raceSource": "ANB",
+			"entries": [
+				{
+                    "name": "Vanguard of Jaher",
+                    "type": "entries",
+                    "entries": [
+                        "You gain {@variantrule Proficiency|XPHB} with the {@item lance|XPHB}, {@item longbow|XPHB} and {@item scimitar|XPHB}."
+                    ]
+				},
+				{
+                    "name": "Teachings of Jaddar",
+                    "type": "entries",
+                    "entries": [
+                        "You know the {@spell Thaumaturgy|XPHB} cantrip.",
+						"When you reach 3rd level, you can cast the {@spell Bless|XPHB} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell Lesser Restoration|XPHB} spell once and regain the ability to do so when you finish a long rest. You pick between Intelligence, Wisdom or Charisma as your spellcasting ability for these spells."
+                    ]
+				},
+				{
+                    "name": "Open Arms of the Jadd",
+                    "type": "entries",
+                    "entries": [
+                        "You are proficient in one of the following skills of your choice: {@skill intimidation}, {@skill persuasion} or {@skill religion}."
+                    ]
+				},
+				{
+                    "name": "Surael's Burden",
+                    "type": "entries",
+                    "entries": [
+                        "You ignore the penalties from the first level of {@condition exhaustion|XPHB}. You also critically succeed on a {@variantrule death saving throw|XPHB} on a roll of 19-20."
+                    ]
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"lance|xphb": true,
+					"longbow|xphb": true,
+					"scimitar|xphb": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"bless|xphb"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"lesser restoration|xphb"
+								]
+							}
+						}
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"1": [
+							"thaumaturgy|xphb#c"
+						]
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"intimidation",
+							"persuasion",
+							"religion"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Sunrise Elf",
+			"source": "ANB",
+			"raceName": "Elf",
+			"raceSource": "ANB",
+			"entries": [
+				{
+                    "name": "Eastern Weapon Training",
+                    "type": "entries",
+                    "entries": [
+                        "You gain {@variantrule Proficiency|XPHB} with the {@item blowgun|XPHB}, {@item flail|XPHB} and {@item longsword|XPHB}."
+                    ]
+				},
+				{
+                    "name": "Chi Mastery",
+                    "type": "entries",
+                    "entries": [
+                        "You know the {@spell True Strike|XPHB} cantrip.",
+						"When you reach 3rd level, you can cast the {@spell Zephyr Strike|XPHB} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell Calm Emotions|XPHB} spell once and regain the ability to do so when you finish a long rest. You pick between Intelligence, Wisdom or Charisma as your spellcasting ability for these spells."
+                    ]
+				},
+				{
+                    "name": "Eastern Mediators",
+                    "type": "entries",
+                    "entries": [
+                        "You are proficient in one of the following skills of your choice: {@skill insight}, {@skill medicine} or {@skill persuasion}."
+                    ]
+				},
+				{
+                    "name": "Temple of the Mind",
+                    "type": "entries",
+                    "entries": [
+                        "Once per long rest, you may end one of the following conditions as a free action: {@condition Charmed}, {@condition Stunned}, {@condition Incapacitated}, {@condition Paralyzed}."
+                    ]
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"blowgun|xphb": true,
+					"flail|xphb": true,
+					"longsword|xphb": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"zephyr strike|xphb"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"calm emotions|xphb"
+								]
+							}
+						}
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"1": [
+							"true strike|xphb#c"
+						]
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"insight",
+							"medicine",
+							"persuasion"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Sea Elf",
+			"source": "ANB",
+			"raceName": "Elf",
+			"raceSource": "ANB",
+			"entries": [
+				{
+                    "name": "Tools of the Trade",
+                    "type": "entries",
+                    "entries": [
+                        "You gain {@variantrule Proficiency|XPHB} with the {@item hand crossbow|XPHB}, {@item shortsword|XPHB} and {@item trident|XPHB}."
+                    ]
+				},
+				{
+                    "name": "Masters of the Tides",
+                    "type": "entries",
+                    "entries": [
+                        "You know the {@spell Shape Water|XGE} cantrip.",
+						"When you reach 3rd level, you can cast the {@spell Create or Destroy Water|XPHB} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell Augury|XPHB} spell once and regain the ability to do so when you finish a long rest. You pick between Intelligence, Wisdom or Charisma as your spellcasting ability for these spells."
+                    ]
+				},
+				{
+                    "name": "World Renown Sailors",
+                    "type": "entries",
+                    "entries": [
+                        "You are proficient with Vehicles (water) and {@item Navigator's Tools|XPHB}."
+                    ]
+				},
+				{
+                    "name": "Strong Swimmers",
+                    "type": "entries",
+                    "entries": [
+                        "You have a swimming speed equal to your walking speed and you can hold your breath for twice as long as normal. Additionally, while in the water, you may {@action Dash|XPHB} as a {@variantrule Bonus Action|XPHB}, provided that you spend that additional movement swimming."
+                    ]
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"hand crossbow|xphb": true,
+					"shortsword|xphb": true,
+					"trident|xphb": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"create or destroy water|xphb"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"augury|xphb"
+								]
+							}
+						}
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"1": [
+							"shape water|xge#c"
+						]
+					}
+				}
+			],
+			"speed": {
+				"walk": 30,
+				"swim": true
+			},
+			"toolProficiencies": [
+				{
+					"navigator's tools": true,
+					"vehicles (water)": true
+				}
+			]
+		},
+		{
+			"name": "Eladrin",
+			"source": "ANB",
+			"raceName": "Elf",
+			"raceSource": "ANB",
+			"entries": [
+				{
+                    "name": "Fey Step",
+                    "type": "entries",
+                    "entries": [
+                        "As a {@variantrule Bonus Action|XPHB}, you can magically teleport up to 30 feet to an unoccupied space you can see. You can use this trait once per {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}.",
+						"When you reach 3rd level, your Fey Step gains an additional effect based on your season; if the effect requires a saving throw, the DC equals 8 + your {@variantrule Proficiency|XPHB|Proficiency Bonus} + your Intelligence, Wisdom, or Charisma modifier (choose when you select this race):",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Autumn",
+									"entry": "Immediately after you use your Fey Step, up to two creatures of your choice that you can see within 10 feet of you must succeed on a Wisdom saving throw or be {@condition Charmed|XPHB} by you for 1 minute, or until you or your companions deal any damage to the creatures."
+								},
+								{
+									"type": "item",
+									"name": "Winter",
+									"entry": "When you use your Fey Step, one creature of your choice that you can see within 5 feet of you before you teleport must succeed on a Wisdom saving throw or be {@condition Frightened|XPHB} of you until the end of your next turn."
+								},
+								{
+									"type": "item",
+									"name": "Spring",
+									"entry": "When you use your Fey Step, you can touch one willing creature within 5 feet of you. That creature then teleports instead of you, appearing in an unoccupied space of your choice that you can see within 30 feet of you."
+								},
+								{
+									"type": "item",
+									"name": "Summer",
+									"entry": "Immediately after you use your Fey Step, each creature of your choice that you can see within 5 feet of you takes fire damage equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}."
+								}
+							]
+						}
+                    ]
+				},
+				{
+                    "name": "Trance",
+                    "type": "entries",
+                    "entries": [
+						"You don't need to sleep.",
+						"Whenever you finish a {@variantrule Long Rest|XPHB}, you can change your season, and you can gain two {@variantrule Proficiency|XPHB|proficiencies} that you don’t have, each one with a {@variantrule Weapon|XPHB} or a Tool Proficiency of your choice selected from the Player’s Handbook. You mystically acquire these {@variantrule Proficiency|XPHB|proficiencies} by drawing them from shared Eladrin memories, and you retain them until you finish your next {@variantrule Long Rest|XPHB}."
+                    ]
+				},
+				{
+                    "name": "Sylvan Language",
+                    "type": "entries",
+                    "entries": [
+                        "You can read, speak, and write {@language Sylvan|XPHB}."
+                    ]
+				}
+			],
+			"languageProficiencies": [
+				{
+					"sylvan": true
+				}
+			]
+		},
+		{
+			"name": "Moon Elf",
+			"source": "ANB",
+			"raceName": "Half-Elf",
+			"raceSource": "ANB",
+			"entries": [
+				{
+                    "name": "Moon Elven Magic",
+                    "type": "entries",
+                    "entries": [
+                        "You know the {@spell Prestidigitation|XPHB} cantrip. Whenever you finish a {@variantrule Long Rest|XPHB}, you can replace that cantrip with a different cantrip from the Arcane Spell List.",
+						"When you reach 3rd level, you can cast the {@spell Detect Magic|XPHB} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell Misty Step|XPHB} spell once and regain the ability to do so when you finish a long rest. You pick between Intelligence, Wisdom or Charisma as your spellcasting ability for these spells."
+                    ]
+				},
+				{
+                    "name": "Dame's Knowledge",
+                    "type": "entries",
+                    "entries": [
+                        "You gain {@variantrule expertise|XPHB} in one skill that you are proficient in."
+                    ]
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"detect magic|xphb"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"misty step|xphb"
+								]
+							}
+						}
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"1": [
+							"prestidigitation|xphb#c"
+						]
+					}
+				}
+			],
+			"expertise": [
+				{
+					"anyProficientSkill": 1
+				}
+			]
+		},
+		{
+			"name": "Wood Elf",
+			"source": "ANB",
+			"raceName": "Half-Elf",
+			"raceSource": "ANB",
+			"entries": [
+				{
+                    "name": "Fey Magic",
+                    "type": "entries",
+                    "entries": [
+                        "You know the {@spell Dancing Lights|XPHB} cantrip.",
+						"When you reach 3rd level, you can cast the {@spell Longstrider|XPHB} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell Pass without Trace|XPHB} spell once and regain the ability to do so when you finish a long rest. You pick between Intelligence, Wisdom or Charisma as your spellcasting ability for these spells."
+                    ]
+				},
+				{
+                    "name": "Warriors of the Deepwoods",
+                    "type": "entries",
+                    "entries": [
+                        "You can attempt to {@action hide|XPHB} even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena. In addition, your base walking speed is equal to 35 feet."
+                    ]
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"longstrider|xphb"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"pass without trace|xphb"
+								]
+							}
+						}
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"1": [
+							"dancing lights|xphb#c"
+						]
+					}
+				}
+			],
+			"speed": 35
+		},
+		{
+			"name": "Sun Elf",
+			"source": "ANB",
+			"raceName": "Half-Elf",
+			"raceSource": "ANB",
+			"entries": [
+				{
+                    "name": "Bulwark Against the Malevolent Dark",
+                    "type": "entries",
+                    "entries": [
+                        "You gain {@variantrule Proficiency|XPHB} with the {@item lance|XPHB}, {@item longbow|XPHB} and {@item pike|XPHB}."
+                    ]
+				},
+				{
+                    "name": "Suraelic Magic",
+                    "type": "entries",
+                    "entries": [
+                        "You know the {@spell Light|XPHB} cantrip.",
+						"When you reach 3rd level, you can cast the {@spell Divine Favour|XPHB} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell Darkvision|XPHB} spell once and regain the ability to do so when you finish a long rest. You pick between Intelligence, Wisdom or Charisma as your spellcasting ability for these spells.",
+						"When you cast {@spell Darkvision|XPHB}, as part of this spell, you treat magical darkness as if it was normal darkness."
+                    ]
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"lance|xphb": true,
+					"longbow|xphb": true,
+					"pike|xphb": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"divine favour|xphb"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"darkvision|xphb"
+								]
+							}
+						}
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"1": [
+							"light|xphb#c"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Desert Elf",
+			"source": "ANB",
+			"raceName": "Half-Elf",
+			"raceSource": "ANB",
+			"entries": [
+				{
+                    "name": "Teachings of Jaddar",
+                    "type": "entries",
+                    "entries": [
+                        "You know the {@spell Thaumaturgy|XPHB} cantrip.",
+						"When you reach 3rd level, you can cast the {@spell Bless|XPHB} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell Lesser Restoration|XPHB} spell once and regain the ability to do so when you finish a long rest. You pick between Intelligence, Wisdom or Charisma as your spellcasting ability for these spells."
+                    ]
+				},
+				{
+                    "name": "Surael's Burden",
+                    "type": "entries",
+                    "entries": [
+                        "You ignore the penalties from the first level of {@condition exhaustion|XPHB}. You also critically succeed on a {@variantrule death saving throw|XPHB} on a roll of 19-20."
+                    ]
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"bless|xphb"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"lesser restoration|xphb"
+								]
+							}
+						}
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"1": [
+							"thaumaturgy|xphb#c"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Sunrise Elf",
+			"source": "ANB",
+			"raceName": "Half-Elf",
+			"raceSource": "ANB",
+			"entries": [
+				{
+                    "name": "Chi Mastery",
+                    "type": "entries",
+                    "entries": [
+                        "You know the {@spell True Strike|XPHB} cantrip.",
+						"When you reach 3rd level, you can cast the {@spell Zephyr Strike|XPHB} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell Calm Emotions|XPHB} spell once and regain the ability to do so when you finish a long rest. You pick between Intelligence, Wisdom or Charisma as your spellcasting ability for these spells."
+                    ]
+				},
+				{
+                    "name": "Temple of the Mind",
+                    "type": "entries",
+                    "entries": [
+                        "Once per long rest, you may end one of the following conditions as a free action: {@condition Charmed}, {@condition Stunned}, {@condition Incapacitated}, {@condition Paralyzed}."
+                    ]
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"zephyr strike|xphb"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"calm emotions|xphb"
+								]
+							}
+						}
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"1": [
+							"true strike|xphb#c"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Sea Elf",
+			"source": "ANB",
+			"raceName": "Half-Elf",
+			"raceSource": "ANB",
+			"entries": [
+				{
+                    "name": "Masters of the Tides",
+                    "type": "entries",
+                    "entries": [
+                        "You know the {@spell Shape Water|XGE} cantrip.",
+						"When you reach 3rd level, you can cast the {@spell Create or Destroy Water|XPHB} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell Augury|XPHB} spell once and regain the ability to do so when you finish a long rest. You pick between Intelligence, Wisdom or Charisma as your spellcasting ability for these spells."
+                    ]
+				},
+				{
+                    "name": "Strong Swimmers",
+                    "type": "entries",
+                    "entries": [
+                        "You have a swimming speed equal to your walking speed and you can hold your breath for twice as long as normal. Additionally, while in the water, you may {@action Dash|XPHB} as a {@variantrule Bonus Action|XPHB}, provided that you spend that additional movement swimming."
+                    ]
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"create or destroy water|xphb"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"augury|xphb"
+								]
+							}
+						}
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"1": [
+							"shape water|xge#c"
+						]
+					}
+				}
+			],
+			"speed": {
+				"swim": true
+			}
+		},
+		{
+			"name": "Eladrin",
+			"source": "ANB",
+			"raceName": "Half-Elf",
+			"raceSource": "ANB",
+			"entries": [
+				{
+                    "name": "Fey Step",
+                    "type": "entries",
+                    "entries": [
+                        "As a {@variantrule Bonus Action|XPHB}, you can magically teleport up to 30 feet to an unoccupied space you can see. You can use this trait once per {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}.",
+						"When you reach 3rd level, your Fey Step gains an additional effect based on your season; if the effect requires a saving throw, the DC equals 8 + your {@variantrule Proficiency|XPHB|Proficiency Bonus} + your Intelligence, Wisdom, or Charisma modifier (choose when you select this race):",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Autumn",
+									"entry": "Immediately after you use your Fey Step, up to two creatures of your choice that you can see within 10 feet of you must succeed on a Wisdom saving throw or be {@condition Charmed|XPHB} by you for 1 minute, or until you or your companions deal any damage to the creatures."
+								},
+								{
+									"type": "item",
+									"name": "Winter",
+									"entry": "When you use your Fey Step, one creature of your choice that you can see within 5 feet of you before you teleport must succeed on a Wisdom saving throw or be {@condition Frightened|XPHB} of you until the end of your next turn."
+								},
+								{
+									"type": "item",
+									"name": "Spring",
+									"entry": "When you use your Fey Step, you can touch one willing creature within 5 feet of you. That creature then teleports instead of you, appearing in an unoccupied space of your choice that you can see within 30 feet of you."
+								},
+								{
+									"type": "item",
+									"name": "Summer",
+									"entry": "Immediately after you use your Fey Step, each creature of your choice that you can see within 5 feet of you takes fire damage equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}."
+								}
+							]
+						}
+                    ]
+				},
+				{
+                    "name": "Trance",
+                    "type": "entries",
+                    "entries": [
+						"You don't need to sleep.",
+						"Whenever you finish a {@variantrule Long Rest|XPHB}, you can change your season, and you can gain two {@variantrule Proficiency|XPHB|proficiencies} that you don’t have, each one with a {@variantrule Weapon|XPHB} or a Tool Proficiency of your choice selected from the Player’s Handbook. You mystically acquire these {@variantrule Proficiency|XPHB|proficiencies} by drawing them from shared Eladrin memories, and you retain them until you finish your next {@variantrule Long Rest|XPHB}."
+                    ]
+				}
+			]
+		},
+		{
+			"name": "Green Orc",
+			"source": "ANB",
+			"raceName": "Orc",
+			"raceSource": "ANB",
+			"entries": [
+				{
+                    "name": "Adrenaline Rush",
+                    "type": "entries",
+                    "entries": [
+                        "You can take the {@action Dash|XPHB} action as a {@variantrule Bonus Action|XPHB}. When you do so, you gain a number of {@variantrule Temporary Hit Points|XPHB} equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}.",
+                        "You can use this trait a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+                    ]
+				},
+				{
+                    "name": "Savage Attacks",
+                    "type": "entries",
+                    "entries": [
+                        "When you score a {@variantrule critical hit|XPHB} with a melee weapon attack, you can roll one of the weapon’s damage dice one additional time and add it to the extra damage of the critical hit."
+                    ]
+				}
+			]
+		},
+		{
+			"name": "Grey Orc",
+			"source": "ANB",
+			"raceName": "Orc",
+			"raceSource": "ANB",
+			"entries": [
+				{
+                    "name": "Cold Acclimatisation",
+                    "type": "entries",
+                    "entries": [
+						"You have survived through harsh winters. You ignore {@variantrule difficult terrain|XPHB} created by ice or snow.",
+						"In addition, you have {@variantrule resistance|XPHB} to cold damage."
+                    ]
+				},
+				{
+                    "name": "Grey Orc Endurance",
+                    "type": "entries",
+                    "entries": [
+                        "When you are reduced to 0 {@variantrule Hit Points|XPHB} but not killed outright, you can drop to 1 {@variantrule Hit Points|XPHB|Hit Point} instead and regain {@variantrule Hit Points|XPHB} equal to twice your level. Once you use this trait, you can't do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+                    ],
+                    "data": {
+                        "overwrite": "Relentless Endurance"
+                    }
+				}
+			],
+			"resist": [
+				"cold"
+			]
+		},
+		{
+			"name": "Black Orc",
+			"source": "ANB",
+			"raceName": "Orc",
+			"raceSource": "ANB",
+			"entries": [
+				{
+					"name": "Natural Camouflage",
+					"type": "entries",
+					"entries": [
+						"You gain {@variantrule Proficiency|XPHB} in {@skill Stealth}. In addition, when you make a Dexterity ({@skill Stealth}) check, you can make the check with {@variantrule advantage|XPHB} if you are in {@variantrule dim light|XPHB} or {@variantrule darkness|XPHB}."
+					]
+				},
+				{
+                    "name": "Superior Darkvision",
+                    "type": "entries",
+                    "entries": [
+						"{@variantrule Dim light|XPHB} no longer imposes {@variantrule disadvantage|XPHB} on your {@skill perception} checks, and you can now see colour with {@sense Darkvision|XPHB}."
+                    ]
+				},
+				{
+                    "name": "Hold Breakers",
+                    "type": "entries",
+                    "entries": [
+                        "You deal extra damage equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} against objects and structures, and {@variantrule cover|XPHB} counts as one degree less for you when determining a enemy's AC (This does not effect Total Cover)."
+                    ]
+				}
+			],
+			"skillProficiencies": [
+				{
+					"stealth": true
+				}
+			]
+		},
+		{
+			"name": "Green Orc",
+			"source": "ANB",
+			"raceName": "Half-Orc",
+			"raceSource": "ANB",
+			"entries": [
+				{
+                    "name": "Adrenaline Rush",
+                    "type": "entries",
+                    "entries": [
+                        "You can take the {@action Dash|XPHB} action as a {@variantrule Bonus Action|XPHB}. When you do so, you gain a number of {@variantrule Temporary Hit Points|XPHB} equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}.",
+                        "You can use this trait a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+                    ]
+				},
+				{
+                    "name": "Savage Attacks",
+                    "type": "entries",
+                    "entries": [
+                        "When you score a {@variantrule critical hit|XPHB} with a melee weapon attack, you can roll one of the weapon’s damage dice one additional time and add it to the extra damage of the critical hit."
+                    ]
+				}
+			]
+		},
+		{
+			"name": "Grey Orc",
+			"source": "ANB",
+			"raceName": "Half-Orc",
+			"raceSource": "ANB",
+			"entries": [
+				{
+                    "name": "Cold Acclimatisation",
+                    "type": "entries",
+                    "entries": [
+						"You have survived through harsh winters. You ignore {@variantrule difficult terrain|XPHB} created by ice or snow.",
+						"In addition, you have {@variantrule resistance|XPHB} to cold damage."
+                    ]
+				},
+				{
+                    "name": "Grey Orc Endurance",
+                    "type": "entries",
+                    "entries": [
+                        "When you are reduced to 0 {@variantrule Hit Points|XPHB} but not killed outright, you can drop to 1 {@variantrule Hit Points|XPHB|Hit Point} instead and regain {@variantrule Hit Points|XPHB} equal to twice your level. Once you use this trait, you can't do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+                    ],
+                    "data": {
+                        "overwrite": "Relentless Endurance"
+                    }
+				}
+			],
+			"resist": [
+				"cold"
+			]
+		},
+		{
+			"name": "Black Orc",
+			"source": "ANB",
+			"raceName": "Half-Orc",
+			"raceSource": "ANB",
+			"darkvision": 60,
+			"entries": [
+				{
+                    "name": "Superior Darkvision",
+                    "type": "entries",
+                    "entries": [
+						"You gain 60 feet of {@sense Darkvision|XPHB}. {@variantrule Dim light|XPHB} no longer imposes {@variantrule disadvantage|XPHB} on your {@skill perception} checks, and you can now see colour with {@sense Darkvision|XPHB}."
+                    ]
+				},
+				{
+                    "name": "Hold Breakers",
+                    "type": "entries",
+                    "entries": [
+                        "You deal extra damage equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} against objects and structures, and {@variantrule cover|XPHB} counts as one degree less for you when determining a enemy's AC (This does not effect Total Cover)."
+                    ]
+				}
+			]
+		},
+		{
+			"name": "Moon Elf",
+			"source": "ANB",
+			"raceName": "Olf",
+			"raceSource": "ANB",
+			"entries": [
+				{
+                    "name": "Moon Elven Magic",
+                    "type": "entries",
+                    "entries": [
+                        "You know the {@spell Prestidigitation|XPHB} cantrip. Whenever you finish a {@variantrule Long Rest|XPHB}, you can replace that cantrip with a different cantrip from the Arcane Spell List.",
+						"When you reach 3rd level, you can cast the {@spell Detect Magic|XPHB} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell Misty Step|XPHB} spell once and regain the ability to do so when you finish a long rest. You pick between Intelligence, Wisdom or Charisma as your spellcasting ability for these spells."
+                    ]
+				},
+				{
+                    "name": "Dame's Knowledge",
+                    "type": "entries",
+                    "entries": [
+                        "You gain {@variantrule expertise|XPHB} in one skill that you are proficient in."
+                    ]
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"detect magic|xphb"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"misty step|xphb"
+								]
+							}
+						}
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"1": [
+							"prestidigitation|xphb#c"
+						]
+					}
+				}
+			],
+			"expertise": [
+				{
+					"anyProficientSkill": 1
+				}
+			]
+		},
+		{
+			"name": "Wood Elf",
+			"source": "ANB",
+			"raceName": "Olf",
+			"raceSource": "ANB",
+			"entries": [
+				{
+                    "name": "Fey Magic",
+                    "type": "entries",
+                    "entries": [
+                        "You know the {@spell Dancing Lights|XPHB} cantrip.",
+						"When you reach 3rd level, you can cast the {@spell Longstrider|XPHB} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell Pass without Trace|XPHB} spell once and regain the ability to do so when you finish a long rest. You pick between Intelligence, Wisdom or Charisma as your spellcasting ability for these spells."
+                    ]
+				},
+				{
+                    "name": "Warriors of the Deepwoods",
+                    "type": "entries",
+                    "entries": [
+                        "You can attempt to {@action hide|XPHB} even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena. In addition, your base walking speed is equal to 35 feet."
+                    ]
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"longstrider|xphb"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"pass without trace|xphb"
+								]
+							}
+						}
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"1": [
+							"dancing lights|xphb#c"
+						]
+					}
+				}
+			],
+			"speed": 35
+		},
+		{
+			"name": "Sun Elf",
+			"source": "ANB",
+			"raceName": "Olf",
+			"raceSource": "ANB",
+			"entries": [
+				{
+                    "name": "Bulwark Against the Malevolent Dark",
+                    "type": "entries",
+                    "entries": [
+                        "You gain {@variantrule Proficiency|XPHB} with the {@item lance|XPHB}, {@item longbow|XPHB} and {@item pike|XPHB}."
+                    ]
+				},
+				{
+                    "name": "Suraelic Magic",
+                    "type": "entries",
+                    "entries": [
+                        "You know the {@spell Light|XPHB} cantrip.",
+						"When you reach 3rd level, you can cast the {@spell Divine Favour|XPHB} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell Darkvision|XPHB} spell once and regain the ability to do so when you finish a long rest. You pick between Intelligence, Wisdom or Charisma as your spellcasting ability for these spells.",
+						"When you cast {@spell Darkvision|XPHB}, as part of this spell, you treat magical darkness as if it was normal darkness."
+                    ]
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"lance|xphb": true,
+					"longbow|xphb": true,
+					"pike|xphb": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"divine favour|xphb"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"darkvision|xphb"
+								]
+							}
+						}
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"1": [
+							"light|xphb#c"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Desert Elf",
+			"source": "ANB",
+			"raceName": "Olf",
+			"raceSource": "ANB",
+			"entries": [
+				{
+                    "name": "Teachings of Jaddar",
+                    "type": "entries",
+                    "entries": [
+                        "You know the {@spell Thaumaturgy|XPHB} cantrip.",
+						"When you reach 3rd level, you can cast the {@spell Bless|XPHB} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell Lesser Restoration|XPHB} spell once and regain the ability to do so when you finish a long rest. You pick between Intelligence, Wisdom or Charisma as your spellcasting ability for these spells."
+                    ]
+				},
+				{
+                    "name": "Surael's Burden",
+                    "type": "entries",
+                    "entries": [
+                        "You ignore the penalties from the first level of {@condition exhaustion|XPHB}. You also critically succeed on a {@variantrule death saving throw|XPHB} on a roll of 19-20."
+                    ]
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"bless|xphb"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"lesser restoration|xphb"
+								]
+							}
+						}
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"1": [
+							"thaumaturgy|xphb#c"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Sunrise Elf",
+			"source": "ANB",
+			"raceName": "Olf",
+			"raceSource": "ANB",
+			"entries": [
+				{
+                    "name": "Chi Mastery",
+                    "type": "entries",
+                    "entries": [
+                        "You know the {@spell True Strike|XPHB} cantrip.",
+						"When you reach 3rd level, you can cast the {@spell Zephyr Strike|XPHB} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell Calm Emotions|XPHB} spell once and regain the ability to do so when you finish a long rest. You pick between Intelligence, Wisdom or Charisma as your spellcasting ability for these spells."
+                    ]
+				},
+				{
+                    "name": "Temple of the Mind",
+                    "type": "entries",
+                    "entries": [
+                        "Once per long rest, you may end one of the following conditions as a free action: {@condition Charmed}, {@condition Stunned}, {@condition Incapacitated}, {@condition Paralyzed}."
+                    ]
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"zephyr strike|xphb"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"calm emotions|xphb"
+								]
+							}
+						}
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"1": [
+							"true strike|xphb#c"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Sea Elf",
+			"source": "ANB",
+			"raceName": "Olf",
+			"raceSource": "ANB",
+			"entries": [
+				{
+                    "name": "Masters of the Tides",
+                    "type": "entries",
+                    "entries": [
+                        "You know the {@spell Shape Water|XGE} cantrip.",
+						"When you reach 3rd level, you can cast the {@spell Create or Destroy Water|XPHB} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell Augury|XPHB} spell once and regain the ability to do so when you finish a long rest. You pick between Intelligence, Wisdom or Charisma as your spellcasting ability for these spells."
+                    ]
+				},
+				{
+                    "name": "Strong Swimmers",
+                    "type": "entries",
+                    "entries": [
+                        "You have a swimming speed equal to your walking speed and you can hold your breath for twice as long as normal. Additionally, while in the water, you may {@action Dash|XPHB} as a {@variantrule Bonus Action|XPHB}, provided that you spend that additional movement swimming."
+                    ]
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"create or destroy water|xphb"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"augury|xphb"
+								]
+							}
+						}
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"1": [
+							"shape water|xge#c"
+						]
+					}
+				}
+			],
+			"speed": {
+				"swim": true
+			}
+		},
+		{
+			"name": "Eladrin",
+			"source": "ANB",
+			"raceName": "Olf",
+			"raceSource": "ANB",
+			"entries": [
+				{
+                    "name": "Fey Step",
+                    "type": "entries",
+                    "entries": [
+                        "As a {@variantrule Bonus Action|XPHB}, you can magically teleport up to 30 feet to an unoccupied space you can see. You can use this trait once per {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}.",
+						"When you reach 3rd level, your Fey Step gains an additional effect based on your season; if the effect requires a saving throw, the DC equals 8 + your {@variantrule Proficiency|XPHB|Proficiency Bonus} + your Intelligence, Wisdom, or Charisma modifier (choose when you select this race):",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Autumn",
+									"entry": "Immediately after you use your Fey Step, up to two creatures of your choice that you can see within 10 feet of you must succeed on a Wisdom saving throw or be {@condition Charmed|XPHB} by you for 1 minute, or until you or your companions deal any damage to the creatures."
+								},
+								{
+									"type": "item",
+									"name": "Winter",
+									"entry": "When you use your Fey Step, one creature of your choice that you can see within 5 feet of you before you teleport must succeed on a Wisdom saving throw or be {@condition Frightened|XPHB} of you until the end of your next turn."
+								},
+								{
+									"type": "item",
+									"name": "Spring",
+									"entry": "When you use your Fey Step, you can touch one willing creature within 5 feet of you. That creature then teleports instead of you, appearing in an unoccupied space of your choice that you can see within 30 feet of you."
+								},
+								{
+									"type": "item",
+									"name": "Summer",
+									"entry": "Immediately after you use your Fey Step, each creature of your choice that you can see within 5 feet of you takes fire damage equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}."
+								}
+							]
+						}
+                    ]
+				},
+				{
+                    "name": "Trance",
+                    "type": "entries",
+                    "entries": [
+						"You don't need to sleep.",
+						"Whenever you finish a {@variantrule Long Rest|XPHB}, you can change your season, and you can gain two {@variantrule Proficiency|XPHB|proficiencies} that you don’t have, each one with a {@variantrule Weapon|XPHB} or a Tool Proficiency of your choice selected from the Player’s Handbook. You mystically acquire these {@variantrule Proficiency|XPHB|proficiencies} by drawing them from shared Eladrin memories, and you retain them until you finish your next {@variantrule Long Rest|XPHB}."
+                    ]
+				}
+			]
+		},
+		{
+			"name": "Green Orc",
+			"source": "ANB",
+			"raceName": "Olf",
+			"raceSource": "ANB",
+			"entries": [
+				{
+                    "name": "Adrenaline Rush",
+                    "type": "entries",
+                    "entries": [
+                        "You can take the {@action Dash|XPHB} action as a {@variantrule Bonus Action|XPHB}. When you do so, you gain a number of {@variantrule Temporary Hit Points|XPHB} equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}.",
+                        "You can use this trait a number of times equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}, and you regain all expended uses when you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+                    ]
+				},
+				{
+                    "name": "Savage Attacks",
+                    "type": "entries",
+                    "entries": [
+                        "When you score a {@variantrule critical hit|XPHB} with a melee weapon attack, you can roll one of the weapon’s damage dice one additional time and add it to the extra damage of the critical hit."
+                    ]
+				}
+			]
+		},
+		{
+			"name": "Grey Orc",
+			"source": "ANB",
+			"raceName": "Olf",
+			"raceSource": "ANB",
+			"entries": [
+				{
+                    "name": "Cold Acclimatisation",
+                    "type": "entries",
+                    "entries": [
+						"You have survived through harsh winters. You ignore {@variantrule difficult terrain|XPHB} created by ice or snow.",
+						"In addition, you have {@variantrule resistance|XPHB} to cold damage."
+                    ]
+				},
+				{
+                    "name": "Grey Orc Endurance",
+                    "type": "entries",
+                    "entries": [
+                        "When you are reduced to 0 {@variantrule Hit Points|XPHB} but not killed outright, you can drop to 1 {@variantrule Hit Points|XPHB|Hit Point} instead and regain {@variantrule Hit Points|XPHB} equal to twice your level. Once you use this trait, you can't do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}."
+                    ],
+                    "data": {
+                        "overwrite": "Relentless Endurance"
+                    }
+				}
+			],
+			"resist": [
+				"cold"
+			]
+		},
+		{
+			"name": "Black Orc",
+			"source": "ANB",
+			"raceName": "Olf",
+			"raceSource": "ANB",
+			"darkvision": 60,
+			"entries": [
+				{
+                    "name": "Superior Darkvision",
+                    "type": "entries",
+                    "entries": [
+						"You gain 60 feet of {@sense Darkvision|XPHB}. {@variantrule Dim light|XPHB} no longer imposes {@variantrule disadvantage|XPHB} on your {@skill perception} checks, and you can now see colour with {@sense Darkvision|XPHB}."
+                    ]
+				},
+				{
+                    "name": "Hold Breakers",
+                    "type": "entries",
+                    "entries": [
+                        "You deal extra damage equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus} against objects and structures, and {@variantrule cover|XPHB} counts as one degree less for you when determining a enemy's AC (This does not effect Total Cover)."
+                    ]
+				}
+			]
+		},
+		{
+			"name": "Hold Dwarf",
+			"source": "ANB",
+			"raceName": "Dwarf",
+			"raceSource": "ANB",
+			"entries": [
+				{
+                    "name": "Hold Dwarf",
+                    "type": "entries",
+                    "entries": [
+						"When the Dwarovar Empire fell, most Holds fell with it, but the few most stubborn, enduring and courges ones. Descendants of those holds are know for their uncompromising toughness and doughtiness."
+                    ],
+					"data": {
+						"overwrite": "Dwarven Cultures"
+					}
+				},
+				{
+                    "name": "Strength of Mountains",
+                    "type": "entries",
+                    "entries": [
+                        "You have {@variantrule advantage|XPHB} on death saving throws."
+                    ]
+				}
+			]
+		},
+		{
+			"name": "Imperial Dwarf",
+			"source": "ANB",
+			"raceName": "Dwarf",
+			"raceSource": "ANB",
+			"toolProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"alchemist's supplies",
+							"brewer's supplies",
+							"calligrapher's supplies",
+							"carpenter's tools",
+							"cartographer's tools",
+							"cobbler's tools",
+							"cook's utensils",
+							"glassblower's tools",
+							"jeweler's tools",
+							"leatherworker's tools",
+							"mason's tools",
+							"painter's supplies",
+							"potter's tools",
+							"smith's tools",
+							"tinker's tools",
+							"weaver's tools",
+							"woodcarver's tools"
+						],
+						"count": 2
+					}
+				}
+			],
+			"entries": [
+				{
+                    "name": "Imperial Dwarf",
+                    "type": "entries",
+                    "entries": [
+						"The Empire of Anbennar is home to many peoples, and the dwarfs are no exception. Hailed as magnificent artisans and, they are made more than welcome in any hamlet or castle."
+                    ],
+					"data": {
+						"overwrite": "Dwarven Cultures"
+					}
+				},
+				{
+                    "name": "Artisan's Expertise",
+                    "type": "entries",
+                    "entries": [
+                        "You gain {@variantrule Proficiency|XPHB} with two kinds of artisan’s tools of your choice. Your {@variantrule Proficiency|XPHB|Proficiency Bonus} is doubled for any ability check you make that uses either of the chosen proficiencies."
+                    ]
+				}
+			],
+			"expertise": [
+				{
+					"anyProficientTool": 2
+				}
+			]
+		},
+		{
+			"name": "Adventuring Dwarf",
+			"source": "ANB",
+			"raceName": "Dwarf",
+			"raceSource": "ANB",
+			"weaponProficiencies": [
+				{
+					"firearms": true
+				}
+			],
+			"entries": [
+				{
+                    "name": "Adventuring Dwarf",
+                    "type": "entries",
+                    "entries": [
+						"By many, dwarfs are considered a conservative and sedentary race. And perhaps some are... But there are many of them who choose to head the call of adventure. Be it exploring the ruins of their ancient empire or battling the Greentide across the greenery of Escann, the dwarven people have proven their courage, their audacity and their mastery of gunpowder."
+                    ],
+					"data": {
+						"overwrite": "Dwarven Cultures"
+					}
+				},
+				{
+                    "name": "Firearms Mastery",
+                    "type": "entries",
+                    "entries": [
+                        "You have {@variantrule Proficiency|XPHB} with all firearms and ignore the loading property of any firearm. In addition, attacking at long range with a firearm doesn't impose {@variantrule disadvantage|XPHB} on your attack roll."
+                    ]
+				}
+			]
+		},
+		{
+			"name": "Imperial Halfling",
+			"source": "ANB",
+			"raceName": "Halfling",
+			"raceSource": "ANB",
+			"entries": [
+				{
+                    "name": "Imperial Halflings",
+                    "type": "entries",
+                    "entries": [
+						"Imperial halflings represent the halflings who live among the cities of Anbennar and within the state of Beepeck, as well as a few from other major cities. These cosmopolitan halflings have developed versatility in their skills thanks to some education and interactions with others."
+                    ],
+					"data": {
+						"overwrite": "Halfling Cultures"
+					}
+				},
+				{
+                    "name": "Urban Connections",
+                    "type": "entries",
+                    "entries": [
+                        "You gain two {@variantrule Proficiency|XPHB|proficiencies} in any language, {@variantrule skill|XPHB} or {@variantrule Tool Proficiencies|XPHB|tool} of your choice."
+                    ]
+				}
+			]
+		},
+		{
+			"name": "County Halfling",
+			"source": "ANB",
+			"raceName": "Halfling",
+			"raceSource": "ANB",
+			"entries": [
+				{
+                    "name": "County Halflings",
+                    "type": "entries",
+                    "entries": [
+						"County halflings represent the folk who live under the rule of Lorent and Gawed. Displeased with this affair, they have developed a knack for preparing to rebel and are often the more skilled in warfare."
+                    ],
+					"data": {
+						"overwrite": "Halfling Cultures"
+					}
+				},
+				{
+                    "name": "Militia Training",
+                    "type": "entries",
+                    "entries": [
+                        "You gain {@variantrule Proficiency|XPHB} with {@variantrule Improvised Weapons|XPHB}. Once per turn, when you hit with an {@variantrule Improvised Weapons|XPHB|Improvised Weapon}, you may deal extra damage equal to your {@variantrule Proficiency|XPHB|Proficiency Bonus}. You also count as one size larger when determining if you can {@variantrule Unarmed Strike|XPHB|grapple or shove} a creature."
+                    ]
+				}
+			]
+		},
+		{
+			"name": "Newshire Halfling",
+			"source": "ANB",
+			"raceName": "Halfling",
+			"raceSource": "ANB",
+			"entries": [
+				{
+                    "name": "Newshire Halflings",
+                    "type": "entries",
+                    "entries": [
+						"Newshire halflings represent those who have left their home for Escann to embrace a new life. Often more secluded and wary, these halflings have made a living in the post greentide landscape and embody some of the halfling traits taken to their more extreme."
+                    ],
+					"data": {
+						"overwrite": "Halfling Cultures"
+					}
+				},
+				{
+                    "name": "Agrarian Folk",
+                    "type": "entries",
+                    "entries": [
+                        "You know the {@spell Druidcraft|XPHB} Cantrip and are proficient with the {@item Herbalism Kit|XPHB}. Any checks made with the {@item Herbalism Kit|XPHB} uses double your proficency bonus."
+                    ]
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"1": [
+							"druidcraft|xphb#c"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Cave Goblin",
+			"source": "ANB",
+			"raceName": "Goblin",
+			"raceSource": "ANB",
+			"entries": [
+				{
+                    "name": "Cave Goblin",
+                    "type": "entries",
+                    "entries": [
+						"These goblins dwell within the Serpentspine mostly, still accustomed to the dark and the struggle against the orcs and dwarfs within, not to mention all other host of deadly creatures..."
+                    ],
+					"data": {
+						"overwrite": "Goblin Cultures"
+					}
+				},
+				{
+                    "name": "Goblin Guts",
+                    "type": "entries",
+                    "entries": [
+                        "You have {@variantrule Advantage|XPHB} on saving throws against traps, and have {@variantrule Resistance|XPHB} to the damage dealt by traps and falling."
+                    ]
+				}
+			]
+		},
+		{
+			"name": "Escanni Goblin",
+			"source": "ANB",
+			"raceName": "Goblin",
+			"raceSource": "ANB",
+			"weaponProficiencies": [
+				{
+					"firearms": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"alchemist's supplies": true
+				}
+			],
+			"entries": [
+				{
+                    "name": "Escanni Goblin",
+                    "type": "entries",
+                    "entries": [
+						"The goblins of Escann have mostly settled down, either in cities such as Taranton or as part of nations such as the Groundhawks. These goblins demonstrate a good understanding of the newest forms of \"things that go bang\" as well as a very goblinesque approach to a cosmopolitan culture"
+                    ],
+					"data": {
+						"overwrite": "Goblin Cultures"
+					}
+				},
+				{
+                    "name": "Goblin Gunpowder",
+                    "type": "entries",
+                    "entries": [
+                        "You gain {@variantrule Proficiency|XPHB} with {@item Alchemist's Supplies|XPHB} and firearms. In addition, you have {@variantrule Advantage|XPHB} on saving throws against bombs and gunpowder"
+                    ]
+				}
+			]
+		},
+		{
+			"name": "Fey-Touched Goblin",
+			"source": "ANB",
+			"raceName": "Goblin",
+			"raceSource": "ANB",
+			"entries": [
+				{
+                    "name": "Fey-Touched Goblin",
+                    "type": "entries",
+                    "entries": [
+						"The goblins of Escann have mostly settled down, either in cities such as Taranton or as part of nations such as the Groundhawks. These goblins demonstrate a good understanding of the newest forms of \"things that go bang\" as well as a very goblinesque approach to a cosmopolitan culture"
+                    ],
+					"data": {
+						"overwrite": "Goblin Cultures"
+					}
+				},
+				{
+					"type": "entries",
+					"name": "Fey Ancestry",
+					"entries": [
+						"You have {@variantrule Advantage|XPHB} on saving throws you make to avoid or end the {@condition charmed} condition on yourself, and magic can't put you to sleep."
+					]
+				}
+			]
+		},
+		{
+			"name": "Eagle Harpy",
+			"source": "ANB",
+			"raceName": "Harpy",
+			"raceSource": "ANB",
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"climb": true
+			},
+			"traitTags": [
+				"Natural Weapon"
+			],
+			"sizeEntry": {
+				"type": "item",
+				"name": "Size:",
+				"entries": [
+					"Medium (about 4-6 feet tall)"
+				]
+			},
+			"entries": [
+				{
+                    "name": "Feather Fall",
+                    "type": "entries",
+                    "entries": [
+						"When you fall at least 10 feet above the ground, you can use your {@variantrule reaction|XPHB} to extend your feathered arms to glide horizontally a number of feet equal to your walking speed, and you take 0 damage from the fall. You determine the direction of the glide."
+                    ]
+				},
+				{
+					"type": "entries",
+					"name": "Talons",
+					"entries": [
+						"Because of your sharp feet, you have a climbing speed equal to your walking speed. In addition, your talons are natural weapons which deal slashing damage equal to {@damage 1d6} + your Strength modifier. You can make this special unarmed attack even when holding something with both hands."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dexterous Feet",
+					"entries": [
+						"As a {@variantrule Bonus Action|XPHB}, you can use your feet to manipulate an object, open or close a door or container, or pick up or set down a tiny object."
+					]
+				}
+			]
+		},
+		{
+			"name": "Falcon Harpy",
+			"source": "ANB",
+			"raceName": "Harpy",
+			"raceSource": "ANB",
+			"size": [
+				"S"
+			],
+			"speed": {
+				"walk": 20,
+				"fly": 50
+			},
+			"sizeEntry": {
+				"type": "item",
+				"name": "Size:",
+				"entries": [
+					"Small (about 3-4 feet tall)"
+				]
+			},
+			"entries": [
+				{
+                    "name": "Flight",
+                    "type": "entries",
+                    "entries": [
+						"You have a flying speed of 50 feet. To use this speed, you can’t be wearing medium or heavy armor."
+                    ]
+				},
+				{
+					"type": "entries",
+					"name": "Imperfect Flier",
+					"entries": [
+						"You don't take fall damage unless you are {@condition restrained|XPHB} or {@condition incapacitated|XPHB}. If you're airborne and the only thing holding you aloft is your flying speed, you {@hazard Falling|XPHB|fall} at the end of your turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Air-Touched",
+			"source": "ANB",
+			"raceName": "Planetouched",
+			"raceSource": "ANB",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Unending Breath",
+					"entries": [
+						"You can hold your breath indefinitely while you're not {@condition incapacitated|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lightning Resistance",
+					"entries": [
+						"You have resistance to lightning damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mingle with the Wind",
+					"entries": [
+						"You know the {@spell shocking grasp|XPHB} cantrip. Starting at 3rd level, you can cast the {@spell feather fall|XPHB} spell with this trait, without requiring a material component. Starting 5th level, you can also cast the {@spell levitate|XPHB} spell with this trait, without requiring a material component. Once you cast {@spell feather fall|XPHB} or {@spell levitate|XPHB} with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+						"Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+					]
+				}
+			],
+			"resist": [
+				"lightning"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"feather fall|XPHB"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"levitate|XPHB"
+								]
+							}
+						}
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"1": [
+							"shocking grasp|XPHB#c"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Earth-Touched",
+			"source": "ANB",
+			"raceName": "Planetouched",
+			"raceSource": "ANB",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Earth Walk",
+					"entries": [
+						"You can move across {@variantrule difficult terrain|XPHB} without expending extra movement if you are using your walking speed on the ground or a floor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Merge with Stone",
+					"entries": [
+						"You know the {@spell blade ward|XPHB} cantrip. You can cast it as normal, and you can also cast it as a bonus action a number of times equal to your proficiency bonus, regaining all expended uses when you finish a long rest.",
+						"Starting at 5th level, you can cast the {@spell pass without trace|XPHB} spell with this trait, without requiring a material component. Once you cast that spell with this trait, you can't do so again until you finish a long rest. You can also cast it using any spell slots you have of 2nd level or higher.",
+						"Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"5": [
+							"pass without trace|XPHB"
+						]
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"1": [
+							"blade ward|XPHB#c"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Fire-Touched",
+			"source": "ANB",
+			"raceName": "Planetouched",
+			"raceSource": "ANB",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Fire Resistance",
+					"entries": [
+						"You have resistance to fire damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reach to the Blaze",
+					"entries": [
+						"You know the {@spell produce flame|XPHB} cantrip. Starting at 3rd level, you can cast the {@spell burning hands|XPHB} spell with this trait. Starting at 5th level, you can also cast the {@spell flame blade|XPHB} spell with this trait, without a material component. Once you cast {@spell burning hands|XPHB} or {@spell flame blade|XPHB} with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+						"Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+					]
+				}
+			],
+			"resist": [
+				"fire"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"burning hands|XPHB"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"flame blade|XPHB"
+								]
+							}
+						}
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"1": [
+							"produce flame|XPHB#c"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Water-Touched",
+			"source": "ANB",
+			"raceName": "Planetouched",
+			"raceSource": "ANB",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Acid Resistance",
+					"entries": [
+						"You have resistance to acid damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Amphibious",
+					"entries": [
+						"You breathe air and water."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Call to the Wave",
+					"entries": [
+						"You know the {@spell acid splash|XPHB} cantrip. Starting at 3rd level, you can cast the {@spell create or destroy water|XPHB} spell with this trait. Starting at 5th level, you can also cast the {@spell water walk|XPHB} spell with this trait, without requiring a material component. Once you cast {@spell create or destroy water|XPHB} or {@spell water walk|XPHB} with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+						"Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+					]
+				}
+			],
+			"resist": [
+				"acid"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"create or destroy water|XPHB"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"water walk|XPHB"
+								]
+							}
+						}
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"1": [
+							"acid splash|XPHB#c"
+						]
+					}
+				}
+			]
+		}
+	]
+}
