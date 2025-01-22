@@ -2,7 +2,7 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "Anbennar",
+				"json": "anbennarescann",
 				"full": "Anbennar: Adventures in Escann",
 				"abbreviation": "ANB",
 				"color": "245269",
@@ -12,7 +12,7 @@
 				"convertedBy": [
 					"Fireshark"
 				],
-				"version": "0.4"
+				"version": "1.1"
 			}
 		],
 		"dependencies": {
@@ -24,14 +24,14 @@
 			]
 		},
 		"dateAdded": 1736814989,
-		"dateLastModified": 1736814989,
+		"dateLastModified": 1737501420,
 		"edition": "one",
-		"status": "wip"
+		"status": "ready"
 	},
 	"race": [
 		{
 			"name": "Human",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"_copy": {
 				"name": "Human",
 				"source": "XPHB",
@@ -63,7 +63,7 @@
 		},
 		{
 			"name": "Elf",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"edition": "one",
 			"creatureTypes": [
 				"humanoid"
@@ -142,7 +142,7 @@
 		},
 		{
 			"name": "Half-Elf",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"edition": "one",
 			"creatureTypes": [
 				"humanoid"
@@ -203,7 +203,7 @@
 		},
 		{
 			"name": "Orc",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"edition": "one",
 			"creatureTypes": [
 				"humanoid"
@@ -263,7 +263,7 @@
 		},
 		{
 			"name": "Half-Orc",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"edition": "one",
 			"creatureTypes": [
 				"humanoid"
@@ -324,7 +324,7 @@
 		},
 		{
 			"name": "Olf",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"edition": "one",
 			"creatureTypes": [
 				"humanoid"
@@ -366,7 +366,7 @@
 		},
 		{
 			"name": "Dwarf",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"_copy": {
 				"name": "Dwarf",
 				"source": "XPHB",
@@ -398,7 +398,7 @@
 		},
 		{
 			"name": "Halfling",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"_copy": {
 				"name": "Halfling",
 				"source": "XPHB",
@@ -447,7 +447,7 @@
 		},
 		{
 			"name": "Gnome",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"_copy": {
 				"name": "Gnome",
 				"source": "XPHB",
@@ -513,7 +513,7 @@
 		},
 		{
 			"name": "Goblin",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"edition": "one",
 			"creatureTypes": [
 				"humanoid"
@@ -571,7 +571,7 @@
 		},
 		{
 			"name": "Kobold",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"_copy": {
 				"name": "Kobold",
 				"source": "MPMM"
@@ -580,7 +580,7 @@
 			"_versions": [
 				{
 					"name": "Kobold; Craftiness",
-					"source": "ANB",
+					"source": "anbennarescann",
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
@@ -598,7 +598,7 @@
 				},
 				{
 					"name": "Kobold; Defiance",
-					"source": "ANB",
+					"source": "anbennarescann",
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
@@ -617,7 +617,7 @@
 				},
 				{
 					"name": "Kobold; Draconic Sorcery",
-					"source": "ANB",
+					"source": "anbennarescann",
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
@@ -637,7 +637,7 @@
 		},
 		{
 			"name": "Goliath",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"_copy": {
 				"name": "Goliath",
 				"source": "MPMM"
@@ -646,7 +646,7 @@
 		},
 		{
 			"name": "Harpy",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"edition": "one",
 			"creatureTypes": [
 				"humanoid"
@@ -670,7 +670,7 @@
 		},
 		{
 			"name": "Tiefling",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"_copy": {
 				"name": "Tiefling",
 				"source": "XPHB"
@@ -678,7 +678,7 @@
 			"_versions": [
 				{
 					"name": "Tiefling; Abyssal Legacy",
-					"source": "ANB",
+					"source": "anbennarescann",
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
@@ -734,7 +734,7 @@
 				},
 				{
 					"name": "Tiefling; Chthonic Legacy",
-					"source": "ANB",
+					"source": "anbennarescann",
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
@@ -789,7 +789,7 @@
 				},
 				{
 					"name": "Tiefling; Infernal Legacy",
-					"source": "ANB",
+					"source": "anbennarescann",
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
@@ -846,7 +846,7 @@
 		},
 		{
 			"name": "Aasimar",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"_copy": {
 				"name": "Aasimar",
 				"source": "XPHB"
@@ -854,7 +854,7 @@
 		},
 		{
 			"name": "Dhampir",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"_copy": {
 				"name": "Dhampir",
 				"source": "VRGR"
@@ -863,7 +863,7 @@
 		},
 		{
 			"name": "Planetouched",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"_copy": {
 				"name": "Genasi",
 				"source": "MPMM"
@@ -872,7 +872,7 @@
 		},
 		{
 			"name": "Centaur",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"_copy": {
 				"name": "Centaur",
 				"source": "MPMM",
@@ -904,7 +904,7 @@
 		},
 		{
 			"name": "Gnoll",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"edition": "one",
 			"creatureTypes": [
 				"humanoid"
@@ -963,7 +963,7 @@
 		},
 		{
 			"name": "Harimari",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"size": [
 				"M"
 			],
@@ -1040,7 +1040,7 @@
 		},
 		{
 			"name": "Satyr",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"_copy": {
 				"name": "Satyr",
 				"source": "MPMM",
@@ -1072,7 +1072,7 @@
 		},
 		{
 			"name": "Hexblood",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"_copy": {
 				"name": "Hexblood",
 				"source": "VRGR",
@@ -1104,7 +1104,7 @@
 		},
 		{
 			"name": "Shifter",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"_copy": {
 				"name": "Shifter",
 				"source": "MPMM",
@@ -1134,7 +1134,7 @@
 		},
 		{
 			"name": "Lizardfolk",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"_copy": {
 				"name": "Lizardfolk",
 				"source": "MPMM",
@@ -1157,7 +1157,7 @@
 		},
 		{
 			"name": "Red Dragonborn",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"edition": "one",
 			"creatureTypes": [
 				"humanoid"
@@ -1238,7 +1238,7 @@
 			"_versions": [
 				{
 					"name": "Red Dragonborn (Flight)",
-					"source": "ANB",
+					"source": "anbennarescann",
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
@@ -1254,7 +1254,7 @@
 				},
 				{
 					"name": "Red Dragonborn (Warding)",
-					"source": "ANB",
+					"source": "anbennarescann",
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
@@ -1274,9 +1274,9 @@
 	"subrace": [
 		{
 			"name": "Moon Elf",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Elf",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
                     "name": "Veterans of the Sorcerer King's War",
@@ -1360,9 +1360,9 @@
 		},
 		{
 			"name": "Wood Elf",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Elf",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
                     "name": "Asymmetric Warfare",
@@ -1438,9 +1438,9 @@
 		},
 		{
 			"name": "Sun Elf",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Elf",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
                     "name": "Bulwark Against the Malevolent Dark",
@@ -1511,9 +1511,9 @@
 		},
 		{
 			"name": "Desert Elf",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Elf",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
                     "name": "Vanguard of Jaher",
@@ -1598,9 +1598,9 @@
 		},
 		{
 			"name": "Sunrise Elf",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Elf",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
                     "name": "Eastern Weapon Training",
@@ -1685,9 +1685,9 @@
 		},
 		{
 			"name": "Sea Elf",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Elf",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
                     "name": "Tools of the Trade",
@@ -1771,9 +1771,9 @@
 		},
 		{
 			"name": "Eladrin",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Elf",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
                     "name": "Fey Step",
@@ -1833,9 +1833,9 @@
 		},
 		{
 			"name": "Moon Elf",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Half-Elf",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
                     "name": "Moon Elven Magic",
@@ -1893,9 +1893,9 @@
 		},
 		{
 			"name": "Wood Elf",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Half-Elf",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
                     "name": "Fey Magic",
@@ -1949,9 +1949,9 @@
 		},
 		{
 			"name": "Sun Elf",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Half-Elf",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
                     "name": "Bulwark Against the Malevolent Dark",
@@ -2012,9 +2012,9 @@
 		},
 		{
 			"name": "Desert Elf",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Half-Elf",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
                     "name": "Teachings of Jaddar",
@@ -2067,9 +2067,9 @@
 		},
 		{
 			"name": "Sunrise Elf",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Half-Elf",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
                     "name": "Chi Mastery",
@@ -2122,9 +2122,9 @@
 		},
 		{
 			"name": "Sea Elf",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Half-Elf",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
                     "name": "Masters of the Tides",
@@ -2180,9 +2180,9 @@
 		},
 		{
 			"name": "Eladrin",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Half-Elf",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
                     "name": "Fey Step",
@@ -2230,9 +2230,9 @@
 		},
 		{
 			"name": "Green Orc",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Orc",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
                     "name": "Adrenaline Rush",
@@ -2253,9 +2253,9 @@
 		},
 		{
 			"name": "Grey Orc",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Orc",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
                     "name": "Cold Acclimatisation",
@@ -2282,9 +2282,9 @@
 		},
 		{
 			"name": "Black Orc",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Orc",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
 					"name": "Natural Camouflage",
@@ -2316,9 +2316,9 @@
 		},
 		{
 			"name": "Green Orc",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Half-Orc",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
                     "name": "Adrenaline Rush",
@@ -2339,9 +2339,9 @@
 		},
 		{
 			"name": "Grey Orc",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Half-Orc",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
                     "name": "Cold Acclimatisation",
@@ -2368,9 +2368,9 @@
 		},
 		{
 			"name": "Black Orc",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Half-Orc",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"darkvision": 60,
 			"entries": [
 				{
@@ -2391,9 +2391,9 @@
 		},
 		{
 			"name": "Moon Elf",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Olf",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
                     "name": "Moon Elven Magic",
@@ -2451,9 +2451,9 @@
 		},
 		{
 			"name": "Wood Elf",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Olf",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
                     "name": "Fey Magic",
@@ -2507,9 +2507,9 @@
 		},
 		{
 			"name": "Sun Elf",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Olf",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
                     "name": "Bulwark Against the Malevolent Dark",
@@ -2570,9 +2570,9 @@
 		},
 		{
 			"name": "Desert Elf",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Olf",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
                     "name": "Teachings of Jaddar",
@@ -2625,9 +2625,9 @@
 		},
 		{
 			"name": "Sunrise Elf",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Olf",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
                     "name": "Chi Mastery",
@@ -2680,9 +2680,9 @@
 		},
 		{
 			"name": "Sea Elf",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Olf",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
                     "name": "Masters of the Tides",
@@ -2738,9 +2738,9 @@
 		},
 		{
 			"name": "Eladrin",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Olf",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
                     "name": "Fey Step",
@@ -2788,9 +2788,9 @@
 		},
 		{
 			"name": "Green Orc",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Olf",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
                     "name": "Adrenaline Rush",
@@ -2811,9 +2811,9 @@
 		},
 		{
 			"name": "Grey Orc",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Olf",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
                     "name": "Cold Acclimatisation",
@@ -2840,9 +2840,9 @@
 		},
 		{
 			"name": "Black Orc",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Olf",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"darkvision": 60,
 			"entries": [
 				{
@@ -2863,9 +2863,9 @@
 		},
 		{
 			"name": "Hold Dwarf",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Dwarf",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
                     "name": "Hold Dwarf",
@@ -2888,9 +2888,9 @@
 		},
 		{
 			"name": "Imperial Dwarf",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Dwarf",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"toolProficiencies": [
 				{
 					"choose": {
@@ -2944,9 +2944,9 @@
 		},
 		{
 			"name": "Adventuring Dwarf",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Dwarf",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"weaponProficiencies": [
 				{
 					"firearms": true
@@ -2974,9 +2974,9 @@
 		},
 		{
 			"name": "Imperial Halfling",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Halfling",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
                     "name": "Imperial Halflings",
@@ -2999,9 +2999,9 @@
 		},
 		{
 			"name": "County Halfling",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Halfling",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
                     "name": "County Halflings",
@@ -3024,9 +3024,9 @@
 		},
 		{
 			"name": "Newshire Halfling",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Halfling",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
                     "name": "Newshire Halflings",
@@ -3065,9 +3065,9 @@
 		},
 		{
 			"name": "Cave Goblin",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Goblin",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
                     "name": "Cave Goblin",
@@ -3090,9 +3090,9 @@
 		},
 		{
 			"name": "Escanni Goblin",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Goblin",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"weaponProficiencies": [
 				{
 					"firearms": true
@@ -3125,9 +3125,9 @@
 		},
 		{
 			"name": "Fey-Touched Goblin",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Goblin",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
                     "name": "Fey-Touched Goblin",
@@ -3150,9 +3150,9 @@
 		},
 		{
 			"name": "Eagle Harpy",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Harpy",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"size": [
 				"M"
 			],
@@ -3196,9 +3196,9 @@
 		},
 		{
 			"name": "Falcon Harpy",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Harpy",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"size": [
 				"S"
 			],
@@ -3232,9 +3232,9 @@
 		},
 		{
 			"name": "Air-Touched",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Planetouched",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
 					"type": "entries",
@@ -3297,9 +3297,9 @@
 		},
 		{
 			"name": "Earth-Touched",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Planetouched",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
 					"type": "entries",
@@ -3342,9 +3342,9 @@
 		},
 		{
 			"name": "Fire-Touched",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Planetouched",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
 					"type": "entries",
@@ -3400,9 +3400,9 @@
 		},
 		{
 			"name": "Water-Touched",
-			"source": "ANB",
+			"source": "anbennarescann",
 			"raceName": "Planetouched",
-			"raceSource": "ANB",
+			"raceSource": "anbennarescann",
 			"entries": [
 				{
 					"type": "entries",
@@ -3463,5 +3463,323 @@
 				}
 			]
 		}
+	],
+	"subclass": [
+		{
+			"name": "Phoenix Sorcery",
+			"shortName": "Phoenix",
+			"source": "anbennarescann",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"aganazzar's scorcher|xge",
+							"burning hands|xphb",
+							"control flames|xge#c",
+							"feather fall|xphb",
+							"scorching ray|xphb"
+						],
+						"5": [
+							"fly|xphb",
+							"revivify|xphb"
+						],
+						"7": [
+							"aura of life|xphb",
+							"fire shield|xphb"
+						],
+						"9": [
+							"flame strike|xphb",
+							"immolation|xge"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"aganazzar's scorcher|xge",
+				"burning hands|xphb",
+				"control flames|xge#c",
+				"feather fall|xphb",
+				"scorching ray|xphb",
+				"fly|xphb",
+				"revivify|xphb",
+				"aura of life|xphb",
+				"fire shield|xphb",
+				"flame strike|xphb",
+				"immolation|xge"
+			],
+			"subclassFeatures": [
+				"Phoenix Sorcery|Sorcerer|XPHB|Phoenix|anbennarescann|3",
+				"Phoenix Spark|Sorcerer|XPHB|Phoenix|anbennarescann|6",
+				"Nourishing Fire|Sorcerer|XPHB|Phoenix|anbennarescann|14",
+				"Form of the Phoenix|Sorcerer|XPHB|Phoenix|anbennarescann|18"
+			]
+		},
+		{
+			"name": "Warrior of the Sun Soul",
+			"shortName": "Sun Soul",
+			"source": "anbennarescann",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"additionalSpells": [
+				{
+					"innate": {
+						"6": {
+							"resource": {
+								"2": [
+									"burning hands|xphb"
+								]
+							}
+						}
+					},
+					"resourceName": "Focus Point",
+					"ability": "wis"
+				}
+			],
+			"subclassFeatures": [
+				"Warrior of the Sun Soul|Monk|XPHB|Sun Soul|anbennarescann|3",
+				"Searing Arc Strike|Monk|XPHB|Sun Soul|anbennarescann|6",
+				"Searing Sunburst|Monk|XPHB|Sun Soul|anbennarescann|11",
+				"Sun Shield|Monk|XPHB|Sun Soul|anbennarescann|17"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Phoenix Sorcery",
+			"source": "anbennarescann",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Phoenix",
+			"subclassSource": "anbennarescann",
+			"level": 3,
+			"entries": [
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Ignite|Sorcerer|XPHB|Phoenix|anbennarescann|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Mantle of Flame|Sorcerer|XPHB|Phoenix|anbennarescann|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Phoenix Spells|Sorcerer|XPHB|Phoenix|anbennarescann|3"
+				}
+			]
+		},
+		{
+			"name": "Phoenix Spells",
+			"source": "anbennarescann",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Phoenix",
+			"subclassSource": "anbennarescann",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you reach a Sorcerer level specified in the Phoenix Spells table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "table",
+					"caption": "Phoenix Spells",
+					"colLabels": [
+						"Sorcerer Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell Aganazzar's Scorcher|XGE}, {@spell Burning Hands|XPHB}, {@spell Control Flames|XGE}, {@spell Feather Fall|XPHB}, {@spell Scorching Ray|XPHB}"
+						],
+						[
+							"5th",
+							"{@spell Fly|XPHB}, {@spell Revivify|XPHB}"
+						],
+						[
+							"7th",
+							"{@spell Aura of Life|XPHB}, {@spell Fire Shield|XPHB}"
+						],
+						[
+							"9th",
+							"{@spell Flame Strike|XPHB}, {@spell Immolation|XGE}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Ignite",
+			"source": "anbennarescann",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Phoenix",
+			"subclassSource": "anbennarescann",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"You gain the ability to start fires with a touch. As a {@action Magic|XPHB} action, you can magically ignite a flammable object you touch with your hand—an object such as a torch, a piece of tinder, or the hem of drapes."
+			]
+		},
+		{
+			"name": "Mantle of Flame",
+			"source": "anbennarescann",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Phoenix",
+			"subclassSource": "anbennarescann",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Starting at 3rd level, when you use your Innate Sorcery feature, you can unleash the phoenix fire that blazes within you. You magically wreathe yourself in swirling fire, as your eyes glow like hot coals, and you gain the following additional benefits:",
+				"Whenever you active your Innate Sorcery, you can choose to wreathe yourself in swirling fire. In addition to the benefits granted by Innate Sorcery, you gain the benefits below.",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Empowered Flame",
+							"entry": "Whenever you cast a Sorcerer spell that deals Fire damage, you can add your Charisma modifier to one damage roll of that spell."
+						},
+						{
+							"type": "item",
+							"name": "Beacon",
+							"entry": "You shed {@variantrule Bright Light|XPHB} in a 30-foot radius and {@variantrule Dim Light|XPHB} for an additional 30 feet."
+						},
+						{
+							"type": "item",
+							"name": "Warding Flame",
+							"entry": "Creatures within 5 feet of you who touch you or hit you with a melee attack take Fire damage equal to your Charisma modifier."
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Phoenix Spark",
+			"source": "anbennarescann",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Phoenix",
+			"subclassSource": "anbennarescann",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"When you are reduced to 0 {@variantrule Hit Points|XPHB} but not killed outright, you can take a {@variantrule Reaction|XPHB} to drop to 1 Hit Point instead. You can then deal Fire damage equal to your Charisma modifier plus half your Sorcerer level to each creature within 10 feet as part of the same Reaction. If your Mantle of Flame is activated, you can instead deal damage equal to twice your Charisma modifier plus your Sorcerer Level, and your Innate Sorcery ends.",
+				"Once you use this feature, you can’t do so again until you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Nourishing Fire",
+			"source": "anbennarescann",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Phoenix",
+			"subclassSource": "anbennarescann",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Your fire spells soothe and restore you. Whenever you expend a spell slot to cast a spell that deals Fire damage, you regain a number of Hit Points equal to the spell's level plus your Charisma modifier."
+			]
+		},
+		{
+			"name": "Form of the Phoenix",
+			"source": "anbennarescann",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"subclassShortName": "Phoenix",
+			"subclassSource": "anbennarescann",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"You finally master the spark of fire that dances within you. While under the effect of your Mantle of Flame feature, you gain additional benefits:",
+				"You have a flying speed of 40 feet and can hover.",
+				"You have resistance to all damage.",
+				"If you use your Phoenix Spark, that feature deals an extra 20 fire damage to each creature."
+			]
+		},
+		{
+			"name": "Warrior of the Sun Soul",
+			"source": "anbennarescann",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Sun Soul",
+			"subclassSource": "anbennarescann",
+			"level": 3,
+			"entries": [
+				"Warriors of the Sun Soul learn to channel their life energy into searing bolts of light. They teach that meditation can unlock the ability to unleash the indomitable light shed by the soul of every living creature.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Radiant Sun Bolt|Monk|XPHB|Sun Soul|anbennarescann|3"
+				}
+			]
+		},
+		{
+			"name": "Radiant Sun Bolt",
+			"source": "anbennarescann",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Sun Soul",
+			"subclassSource": "anbennarescann",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Starting when you choose this tradition at 3rd level, you can hurl searing bolts of magical radiance.",
+				"You gain a new attack option that you can use with the {@action Attack|XPHB} action. The special attack is an unarmed strike with a range of 30 feet. You are proficient with it, and you add your Dexterity modifier to its attack and damage rolls. Its damage is radiant, and its damage die is a {@damage d4}. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table."
+			]
+		},
+		{
+			"name": "Searing Arc Strike",
+			"source": "anbennarescann",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Sun Soul",
+			"subclassSource": "anbennarescann",
+			"level": 6,
+			"header": 2,
+			"consumes": {
+				"name": "Focus Point",
+				"amount": 2
+			},
+			"entries": [
+				"At 6th level, you gain the ability to channel your focus into searing waves of energy. Immediately after you take the {@action Attack|XPHB} action on your turn, you can spend 2 focus points to cast the {@spell burning hands|XPHB} spell as a bonus action. It’s damage is either fire or radiant, your choice when you cast the spell.",
+				"You can spend additional focus points to cast {@spell burning hands|XPHB} as a higher-level spell. Each additional focus point you spend increases the spell's level by 1. The maximum number of focus points (2 plus any additional points) that you can spend on the spell equals half your monk level."
+			]
+		},
+		{
+			"name": "Searing Sunburst",
+			"source": "anbennarescann",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Sun Soul",
+			"subclassSource": "anbennarescann",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"At 11th level, you gain the ability to create an orb of light that erupts into a devastating explosion. As an action, you magically create an orb and hurl it at a point you choose within 150 feet, where it erupts into a sphere of radiant light for a brief but deadly instant.",
+				"Each creature in that 5 foot-radius sphere must succeed on a Constitution saving throw or take {@damage 2d6} radiant damage and gains the blinded condition until the end of your next turn. A creature doesn't need to make the save if the creature is behind {@variantrule Cover|XPHB} that is opaque.",
+				"You can increase the sphere's damage and size by spending focus points. Each point you spend, to a maximum of half your monk level (rounded down), increases the damage by {@damage 2d6} and the radius by 5 feet."
+			]
+		},
+		{
+			"name": "Sun Shield",
+			"source": "anbennarescann",
+			"className": "Monk",
+			"classSource": "XPHB",
+			"subclassShortName": "Sun Soul",
+			"subclassSource": "anbennarescann",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, you become wreathed in a luminous, magical aura. You shed bright light in a 30-foot radius and dim light for an additional 30 feet. You can extinguish or restore the light as a bonus action.",
+				"If a creature hits you with a melee attack while this light shines, you deal radiant damage to the creature. The radiant damage equals 5 + your Wisdom modifier."
+			]
+		}
+
 	]
 }
