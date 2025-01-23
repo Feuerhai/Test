@@ -7,12 +7,12 @@
 				"abbreviation": "ANB",
 				"color": "245269",
 				"authors": [
-					"Adventures in Escann Discord"
+					"Rileyo"
 				],
 				"convertedBy": [
 					"Fireshark"
 				],
-				"version": "1.2"
+				"version": "1.1"
 			}
 		],
 		"dependencies": {
@@ -27,7 +27,7 @@
 			]
 		},
 		"dateAdded": 1736814989,
-		"dateLastModified": 1737631980,
+		"dateLastModified": 1737501420,
 		"edition": "one",
 		"status": "ready"
 	},
@@ -3974,8 +3974,8 @@
 						"Damage Type"
 					],
 					"colStyles": [
-						"col-2",
-						"col-2"
+						"col-6",
+						"col-6"
 					],
 					"rows": [
 						[
@@ -4273,8 +4273,8 @@
 						"Damage Type"
 					],
 					"colStyles": [
-						"col-2",
-						"col-2"
+						"col-6",
+						"col-6"
 					],
 					"rows": [
 						[
