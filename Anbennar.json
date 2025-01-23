@@ -7,12 +7,12 @@
 				"abbreviation": "ANB",
 				"color": "245269",
 				"authors": [
-					"Rileyo"
+					"Adventures in Escann Discord"
 				],
 				"convertedBy": [
 					"Fireshark"
 				],
-				"version": "1.1"
+				"version": "1.2"
 			}
 		],
 		"dependencies": {
@@ -21,10 +21,13 @@
 				"MPMM",
 				"VRGR",
 				"SCC"
+			],
+			"class": [
+				"GHPG"
 			]
 		},
 		"dateAdded": 1736814989,
-		"dateLastModified": 1737501420,
+		"dateLastModified": 1737631980,
 		"edition": "one",
 		"status": "ready"
 	},
@@ -420,7 +423,7 @@
 								"type": "entries",
 								"name": "Halfling Resilience",
 								"entries": [
-									"You have {@variantrule Advantage|XPHB} on saving throws against poison, and you have {@variantrule resistance|XPHB} to poison damage."
+									"You have {@variantrule Advantage|XPHB} on saving throws against poison, and you have {@variantrule Resistance|XPHB} to poison damage."
 								]
 							}
 						},
@@ -607,7 +610,7 @@
 								"name": "Kobold Legacy (Defiance)",
 								"type": "entries",
 								"entries": [
-									"You have advantage on saving throws to avoid or end the {@condition frightened} condition on yourself."
+									"You have advantage on saving throws to avoid or end the {@condition Frightened} condition on yourself."
 								]
 							}
 						}
@@ -1026,7 +1029,7 @@
 					"type": "entries",
 					"name": "Daunting Roar",
 					"entries": [
-						"As a {@variantrule Bonus Action|XPHB}, you can let out an especially menacing roar. Creatures of your choice within 10 feet of you that can hear you must succeed on a Wisdom saving throw or become {@condition frightened|XPHB} of you until the end of your next turn. The DC of the save equals 8 + your proficiency bonus + your Constitution or Charisma modifier. Once you use this trait, you can't use it again until you finish a {@variantrule short rest|XPHB|short} or {@variantrule long rest|XPHB}."
+						"As a {@variantrule Bonus Action|XPHB}, you can let out an especially menacing roar. Creatures of your choice within 10 feet of you that can hear you must succeed on a Wisdom saving throw or become {@condition Frightened|XPHB} of you until the end of your next turn. The DC of the save equals 8 + your proficiency bonus + your Constitution or Charisma modifier. Once you use this trait, you can't use it again until you finish a {@variantrule short rest|XPHB|short} or {@variantrule long rest|XPHB}."
 					]
 				},
 				{
@@ -1390,7 +1393,7 @@
                     "name": "Warriors of the Deepwoods",
                     "type": "entries",
                     "entries": [
-                        "You can attempt to {@action hide|XPHB} even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena. In addition, your base walking speed is equal to 35 feet."
+                        "You can attempt to {@action Hide|XPHB} even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena. In addition, your base walking speed is equal to 35 feet."
                     ]
 				}
 			],
@@ -1462,7 +1465,7 @@
                     "name": "Surael Protects",
                     "type": "entries",
                     "entries": [
-                        "You have {@variantrule resistance|XPHB} to necrotic damage."
+                        "You have {@variantrule Resistance|XPHB} to necrotic damage."
                     ]
 				}
 			],
@@ -1909,7 +1912,7 @@
                     "name": "Warriors of the Deepwoods",
                     "type": "entries",
                     "entries": [
-                        "You can attempt to {@action hide|XPHB} even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena. In addition, your base walking speed is equal to 35 feet."
+                        "You can attempt to {@action Hide|XPHB} even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena. In addition, your base walking speed is equal to 35 feet."
                     ]
 				}
 			],
@@ -2261,8 +2264,8 @@
                     "name": "Cold Acclimatisation",
                     "type": "entries",
                     "entries": [
-						"You have survived through harsh winters. You ignore {@variantrule difficult terrain|XPHB} created by ice or snow.",
-						"In addition, you have {@variantrule resistance|XPHB} to cold damage."
+						"You have survived through harsh winters. You ignore {@variantrule Difficult Terrain|XPHB} created by ice or snow.",
+						"In addition, you have {@variantrule Resistance|XPHB} to cold damage."
                     ]
 				},
 				{
@@ -2347,8 +2350,8 @@
                     "name": "Cold Acclimatisation",
                     "type": "entries",
                     "entries": [
-						"You have survived through harsh winters. You ignore {@variantrule difficult terrain|XPHB} created by ice or snow.",
-						"In addition, you have {@variantrule resistance|XPHB} to cold damage."
+						"You have survived through harsh winters. You ignore {@variantrule Difficult Terrain|XPHB} created by ice or snow.",
+						"In addition, you have {@variantrule Resistance|XPHB} to cold damage."
                     ]
 				},
 				{
@@ -2467,7 +2470,7 @@
                     "name": "Warriors of the Deepwoods",
                     "type": "entries",
                     "entries": [
-                        "You can attempt to {@action hide|XPHB} even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena. In addition, your base walking speed is equal to 35 feet."
+                        "You can attempt to {@action Hide|XPHB} even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena. In addition, your base walking speed is equal to 35 feet."
                     ]
 				}
 			],
@@ -2819,8 +2822,8 @@
                     "name": "Cold Acclimatisation",
                     "type": "entries",
                     "entries": [
-						"You have survived through harsh winters. You ignore {@variantrule difficult terrain|XPHB} created by ice or snow.",
-						"In addition, you have {@variantrule resistance|XPHB} to cold damage."
+						"You have survived through harsh winters. You ignore {@variantrule Difficult Terrain|XPHB} created by ice or snow.",
+						"In addition, you have {@variantrule Resistance|XPHB} to cold damage."
                     ]
 				},
 				{
@@ -3247,7 +3250,7 @@
 					"type": "entries",
 					"name": "Lightning Resistance",
 					"entries": [
-						"You have resistance to lightning damage."
+						"You have {@variantrule Resistance|XPHB} to lightning damage."
 					]
 				},
 				{
@@ -3350,7 +3353,7 @@
 					"type": "entries",
 					"name": "Fire Resistance",
 					"entries": [
-						"You have resistance to fire damage."
+						"You have {@variantrule Resistance|XPHB} to fire damage."
 					]
 				},
 				{
@@ -3408,7 +3411,7 @@
 					"type": "entries",
 					"name": "Acid Resistance",
 					"entries": [
-						"You have resistance to acid damage."
+						"You have {@variantrule Resistance|XPHB} to acid damage."
 					]
 				},
 				{
@@ -3542,6 +3545,111 @@
 				"Searing Arc Strike|Monk|XPHB|Sun Soul|anbennarescann|6",
 				"Searing Sunburst|Monk|XPHB|Sun Soul|anbennarescann|11",
 				"Sun Shield|Monk|XPHB|Sun Soul|anbennarescann|17"
+			]
+		},
+		{
+			"name": "Ancient Dragon Patron",
+			"shortName": "Ancient Dragon",
+			"source": "anbennarescann",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"edition": "one",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"alter self|xphb",
+							"chromatic sphere|xphb",
+							"command|xphb",
+							"suggestion|xphb"
+						],
+						"5": [
+							"fear|xphb",
+							"fly|xphb"
+						],
+						"7": [
+							"dominate beast|xphb",
+							"polymorph|xphb"
+						],
+						"9": [
+							"dominate person|xphb",
+							"summon dragon|xphb"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"alter self|xphb",
+				"chromatic sphere|xphb",
+				"command|xphb",
+				"suggestion|xphb",
+				"fear|xphb",
+				"fly|xphb",
+				"dominate beast|xphb",
+				"polymorph|xphb",
+				"dominate person|xphb",
+				"summon dragon|xphb"
+			],
+			"subclassFeatures": [
+				"Ancient Dragon Patron|Warlock|XPHB|Ancient Dragon|anbennarescann|3",
+				"Breath of the Ancients|Warlock|XPHB|Ancient Dragon|anbennarescann|6",
+				"Blood of the Dragons|Warlock|XPHB|Ancient Dragon|anbennarescann|10",
+				"Draconic Apotheosis|Warlock|XPHB|Ancient Dragon|anbennarescann|14"
+			]
+		},
+		{
+			"name": "Vermin Lord",
+			"shortName": "Vermin Lord",
+			"source": "anbennarescann",
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"additionalSpells": [
+				{
+					"known": {
+						"3": [
+							"ray of sickness|xphb"
+						],
+						"5": [
+							"wither and bloom|scc"
+						],
+						"9": [
+							"gaseous form|xphb"
+						],
+						"13": [
+							"vitriolic sphere|xphb"
+						],
+						"17": [
+							"contagion|xphb"
+						]
+					}
+				}
+			],
+			"subclassSpells": [
+				"ray of sickness|xphb",
+				"wither and bloom|scc",
+				"gaseous form|xphb",
+				"vitriolic sphere|xphb",
+				"contagion|xphb"
+			],
+			"subclassFeatures": [
+				"Vermin Lord|Ranger|XPHB|Vermin Lord|anbennarescann|3",
+				"Filth and Fortitude|Ranger|XPHB|Vermin Lord|anbennarescann|7",
+				"Infectious Spread|Ranger|XPHB|Vermin Lord|anbennarescann|11",
+				"Strength of the Swarm|Ranger|XPHB|Vermin Lord|anbennarescann|15"
+			]
+		},
+		{
+			"name": "Dragonsworn Knight",
+			"shortName": "Dragonsworn Knight",
+			"source": "anbennarescann",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassFeatures": [
+				"Dragonsworn Knight|Fighter|XPHB|Dragonsworn Knight|anbennarescann|3",
+				"Dragon's Presence|Fighter|XPHB|Dragonsworn Knight|anbennarescann|7",
+				"Thick Blood|Fighter|XPHB|Dragonsworn Knight|anbennarescann|10",
+				"Dragon warrior|Fighter|XPHB|Dragonsworn Knight|anbennarescann|15",
+				"Adult Dragon Form|Fighter|XPHB|Dragonsworn Knight|anbennarescann|18"
 			]
 		}
 	],
@@ -3699,7 +3807,7 @@
 			"entries": [
 				"You finally master the spark of fire that dances within you. While under the effect of your Mantle of Flame feature, you gain additional benefits:",
 				"You have a flying speed of 40 feet and can hover.",
-				"You have resistance to all damage.",
+				"You have {@variantrule Resistance|XPHB} to all damage.",
 				"If you use your Phoenix Spark, that feature deals an extra 20 fire damage to each creature."
 			]
 		},
@@ -3779,7 +3887,508 @@
 				"At 17th level, you become wreathed in a luminous, magical aura. You shed bright light in a 30-foot radius and dim light for an additional 30 feet. You can extinguish or restore the light as a bonus action.",
 				"If a creature hits you with a melee attack while this light shines, you deal radiant damage to the creature. The radiant damage equals 5 + your Wisdom modifier."
 			]
+		},
+		{
+			"name": "Ancient Dragon Patron",
+			"source": "anbennarescann",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Ancient Dragon",
+			"subclassSource": "anbennarescann",
+			"level": 3,
+			"entries": [
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Draconic Patron|Warlock|XPHB|Ancient Dragon|anbennarescann|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dragonscales|Warlock|XPHB|Ancient Dragon|anbennarescann|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Ancient Dragon Spells|Warlock|XPHB|Ancient Dragon|anbennarescann|3"
+				}
+			]
+		},
+		{
+			"name": "Ancient Dragon Spells",
+			"source": "anbennarescann",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Ancient Dragon",
+			"subclassSource": "anbennarescann",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"The magic of your patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Ancient Dragon Spells table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "table",
+					"caption": "Ancient Dragon Spells",
+					"colLabels": [
+						"Warlock Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3",
+							"{@spell Alter Self|XPHB}, {@spell Chromatic Sphere|XPHB}, {@spell Command|XPHB}, {@spell Suggestion|XPHB}"
+						],
+						[
+							"5",
+							"{@spell Fear|XPHB}, {@spell Fly|XPHB}"
+						],
+						[
+							"7",
+							"{@spell Dominate Beast|XPHB}, {@spell Polymorph|XPHB}"
+						],
+						[
+							"9",
+							"{@spell Dominate Person|XPHB}, {@spell Summon Dragon|XPHB}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Draconic Patron",
+			"source": "anbennarescann",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Ancient Dragon",
+			"subclassSource": "anbennarescann",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 1st level, you choose one type of dragon as your patron. The damage type associated with each dragon is used by features you gain later.", 
+				"You can also speak, read, and write Draconic.",
+				{
+					"type": "table",
+					"caption": "Dragon Patron",
+					"colLabels": [
+						"Dragon",
+						"Damage Type"
+					],
+					"colStyles": [
+						"col-2",
+						"col-2"
+					],
+					"rows": [
+						[
+							"Black/Copper",
+							"Acid"
+						],
+						[
+							"Blue/Bronze",
+							"Lightning"
+						],
+						[
+							"Green",
+							"Poison"
+						],
+						[
+							"Red/Brass/Gold",
+							"Fire"
+						],
+						[
+							"White/Silver",
+							"Cold"
+						],
+						[
+							"Amethyst",
+							"Force"
+						],
+						[
+							"Crystal",
+							"Radiant"
+						],
+						[
+							"Emerald",
+							"Psychic"
+						],
+						[
+							"Sapphire",
+							"Thunder"
+						],
+						[
+							"Topaz",
+							"Necrotic"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Dragonscales",
+			"source": "anbennarescann",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Ancient Dragon",
+			"subclassSource": "anbennarescann",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting at 1st level, you can call upon the scales of your patron to burst forth in patches upon your body, protecting you from harm. As a {@variantrule Reaction|XPHB} when you are hit by an attack, you may extend your dragonscales and add your Charisma modifier to your AC until the beginning of your next turn. This bonus to AC also applies against the attack that triggered this ability, and may cause the triggering hit to instead become a miss.",
+				"You can use this ability number of times equal to your Charisma modifier. You regain all uses after a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Breath of the Ancients",
+			"source": "anbennarescann",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Ancient Dragon",
+			"subclassSource": "anbennarescann",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You gain a breath weapon based on the heritage of your patron, which you may use as an {@variantrule Action|XPHB} on your turn. This breath weapon targets all creatures in either a 45ft {@variantrule Cone [Area of Effect]|XPHB|Cone} or a 90-foot {@variantrule Line [Area of Effect]|XPHB|Line} that is 5 feet wide (your choice when you use this feature). All targets must make a Dexterity saving throw against your spell save DC. On a failed save, the target takes damage equal to a number of d8s equal to Charisma modifier, or half as much on a successful save.",
+				"You can use this ability number of times equal to your Charisma modifier. You regain all uses after a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Blood of the Dragons",
+			"source": "anbennarescann",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Ancient Dragon",
+			"subclassSource": "anbennarescann",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Starting at 10th level, you gain {@variantrule Resistance|XPHB} to the damage type associated with your draconic patron, as selected in your Draconic Patron feature.",
+				"Once per turn when you hit a creature with an attack, you can deal an additional {@damage 1d6} of your patron’s damage type to the target. You can use this ability number of times equal to your Charisma modifier. You regain all uses after either a {@variantrule Short Rest|XPHB|Short} or a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Draconic Apotheosis",
+			"source": "anbennarescann",
+			"className": "Warlock",
+			"classSource": "XPHB",
+			"subclassShortName": "Ancient Dragon",
+			"subclassSource": "anbennarescann",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Once you reach 14th level, you can assume the form of an aspect of your draconic patron for up to a minute. You may sprout horns, grow scales, gain burning draconic eyes, and take on other features directly reminiscent of your patron.",
+				"You can transform on your turn using a {@variantrule Bonus Action|XPHB}, which grants the following abilities:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"entry": "Webbed dragon wings sprout from your back, granting you a flying speed of 60 feet."
+						},
+						{
+							"type": "item",
+							"entry": "As a {@variantrule Bonus Action|XPHB} on your turn, you may level your draconic gaze at a creature within 60 feet of you. This creature must make a Wisdom saving throw against your spell save DC or become {@condition Frightened|XPHB} of you for one minute. A creature affected by this repeats this save at the end of each of its turns, and a creature that saves against this effect may not be subject to it again for another 24 hours. While a creature is {@condition Frightened|XPHB} of you, they have disadvantage on saving throws against your spell and abilities, and you have advantage on attack rolls against this creature."
+						},
+						{
+							"type": "item",
+							"entry": "The amount of dice you roll for Breath of the Ancients' damage is doubled and the damage from your Blood of the Dragons feature is increased to {@damage 2d6} while you're in this form. "
+						},
+						"Once you have used this ability, you may not use it again until you complete a {@variantrule Long Rest|XPHB}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Vermin Lord",
+			"source": "anbennarescann",
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"subclassShortName": "Vermin Lord",
+			"subclassSource": "anbennarescann",
+			"level": 3,
+			"entries": [
+				"Vermin Lords cultivate loyal hordes of disease-bearing rodents to help them in their efforts to stem a greater evil. For many of these rangers, that greater evil is some kind of societal ill, but a rare few see their fellow humanoids as an infestation that threatens the natural world. Regardless of their goal, they make their homes in sewers, slums, and other forgotten places, where they are free to plot against their enemies and tend to their vermin kin.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Verminkin|Ranger|XPHB|Vermin Lord|anbennarescann|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Septic Strikes|Ranger|XPHB|Vermin Lord|anbennarescann|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Vermin Lord Spells|Ranger|XPHB|Vermin Lord|anbennarescann|3"
+				}
+			]
+		},
+		{
+			"name": "Vermin Lord Spells",
+			"source": "anbennarescann",
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"subclassShortName": "Vermin Lord",
+			"subclassSource": "anbennarescann",
+			"level": 3,
+			"entries": [
+				"When you reach a Ranger level specified in the Vermin Lord Spells table, you thereafter always have the listed spells prepared.",
+				{
+					"type": "table",
+					"caption": "Vermin Lord Spells",
+					"colLabels": [
+						"Ranger Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell Ray of Sickness|XPHB}"
+						],
+						[
+							"5th",
+							"{@spell Wither and Bloom|SCC}"
+						],
+						[
+							"9th",
+							"{@spell Gaseous Form|XPHB}"
+						],
+						[
+							"13th",
+							"{@spell Vitriolic Sphere|XPHB}"
+						],
+						[
+							"17th",
+							"{@spell Contagion|XPHB}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Verminkin",
+			"source": "anbennarescann",
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"subclassShortName": "Vermin Lord",
+			"subclassSource": "anbennarescann",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you can comprehend and verbally communicate with vermin (mice, rats, and other rodents determined by your DM).",
+				"Additionally, you can use an action and expend a spell slot to summon rodent hordes. When you do, you summon a number of {@creature swarms of vermin|GHPG} equal to twice the level of spell slot expended. Each swarm is summoned to a space you can see within 30 feet. This feature recharges after a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}.",
+				"Swarms summoned in this way go on your initiative, starting on your next turn. These swarms obey your verbal commands (no action required by you), defending themselves by taking the {@action Dodge|XPHB} action if you do not give them a command. Your vermin swarms flee the area and disperse after 1 minute."
+			]
+		},
+		{
+			"name": "Septic Strikes",
+			"source": "anbennarescann",
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"subclassSource": "anbennarescann",
+			"subclassShortName": "Vermin Lord",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, you leave a septic filth behind to fester in the wounds caused by your and your verminkin's attacks. As a bonus action, you can choose any number of creatures within 60 feet of you that took damage from a weapon attack made by you or your swarm of vermin this turn. Chosen creatures take {@damage 1d4} necrotic damage."
+			]
+		},
+		{
+			"name": "Filth and Fortitude",
+			"source": "anbennarescann",
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"subclassSource": "anbennarescann",
+			"subclassShortName": "Vermin Lord",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"By 7th level, the time you've spent with plaguebearing rodents has rendered you immune to disease. Additionally, you gain proficiency with Constitution saving throws."
+			]
+		},
+		{
+			"name": "Infectious Spread",
+			"source": "anbennarescann",
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"subclassSource": "anbennarescann",
+			"subclassShortName": "Vermin Lord",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"At 11th level, when you use your bonus action to deal the damage granted by your Septic Strikes feature, each creature that takes damage must make a Constitution saving throw with a DC equal to your ranger spell save DC. On a failure, the creature becomes {@condition poisoned|XPHB} until the start of your next turn.",
+				"You can use this feature a number of times equal to your Wisdom modifier (minimum once). You regain all expended uses of this feature when you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Strength of the Swarm",
+			"source": "anbennarescann",
+			"className": "Ranger",
+			"classSource": "XPHB",
+			"subclassSource": "anbennarescann",
+			"subclassShortName": "Vermin Lord",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"At 15th level, while you have a swarm of vermin summoned with your Verminkin feature, you can call on your rodent minions for defense. When you take damage while one or more of your swarms of rats are within 5 feet, you can use your reaction and choose one of those swarms to take the damage instead."
+			]
+		},
+		{
+			"name": "Dragonsworn Knight",
+			"source": "anbennarescann",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Dragonsworn Knight",
+			"subclassSource": "anbennarescann",
+			"level": 3,
+			"entries": [
+				"Blood of dragons flows in veins of these proud warriors, granting them incredible strength. Perhaps you're a member of a draconic cult or of a knightly order dedicated to serving dragons, maybe someone in your bloodline made a deal with a dragon. No matter the reason, powerful blood granting  you draconic powers now flows through you.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dragon's Blood|Fighter|XPHB|Dragonsworn Knight|anbennarescann|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dragonsworn Breath|Fighter|XPHB|Dragonsworn Knight|anbennarescann|3"
+				}
+			]
+		},
+		{
+			"name": "Dragon's Blood",
+			"source": "anbennarescann",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Dragonsworn Knight",
+			"subclassSource": "anbennarescann",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"At 3rd level, you choose one type of dragon that was gracious enough to donate their blood to you. The damage type associated with each dragon is used by features you gain later.",
+				{
+					"type": "table",
+					"caption": "Dragon",
+					"colLabels": [
+						"Dragon",
+						"Damage Type"
+					],
+					"colStyles": [
+						"col-2",
+						"col-2"
+					],
+					"rows": [
+						[
+							"Black/Copper",
+							"Acid"
+						],
+						[
+							"Blue/Bronze",
+							"Lightning"
+						],
+						[
+							"Green",
+							"Poison"
+						],
+						[
+							"Red/Brass/Gold",
+							"Fire"
+						],
+						[
+							"White/Silver",
+							"Cold"
+						],
+						[
+							"Amethyst",
+							"Force"
+						],
+						[
+							"Crystal",
+							"Radiant"
+						],
+						[
+							"Emerald",
+							"Psychic"
+						],
+						[
+							"Sapphire",
+							"Thunder"
+						],
+						[
+							"Topaz",
+							"Necrotic"
+						]
+					]
+				},
+				"You can speak, read, and write Draconic. Additionally, when you use Second Wind, you add twice your Constitution Modifier to the amount of {@variantrule Hit Points|XPHB} you heal."
+			]
+		},
+		{
+			"name": "Dragonsworn Breath",
+			"source": "anbennarescann",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Dragonsworn Knight",
+			"subclassSource": "anbennarescann",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you take the {@action Attack|XPHB} action on your turn, you can replace one of your attacks with an exhalation of magical energy in 15-foot {@variantrule Cone [Area of Effect]|XPHB|Cone} or a 30-foot {@variantrule Line [Area of Effect]|XPHB|Line} that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes a number of d6s equal to your Proficiency Bonus of damage, type of which is determined by your Dragon's Blood feature. On a successful save, a creature takes half as much damage.",
+				"You can use this feature a number of times equal to your Constitution Modifier. You regain one expended use when you finish a {@variantrule Short Rest|XPHB}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Dragon's Presence",
+			"source": "anbennarescann",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Dragonsworn Knight",
+			"subclassSource": "anbennarescann",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"As an {@variantrule Action|XPHB}, you begin to emanate a terrifying aura around you. Choose a number of creatures equal to half your fighter level that you are aware of within 60 feet of you to make a Wisdom saving throw (DC 8 + you Constitution Modifier and Proficiency Bonus). On a failed save, they are {@condition Frightened|XPHB} of you for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the Dragon's Presence for the next 24 hours. If a creature is within 10 feat if you, it cannot repeat the saving throw.",
+				"Once you use this feature, you can't use it again until you finish a {@variantrule Long Rest|XPHB}. Starting at 15th level, you can use it twice before needing a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Thick Blood",
+			"source": "anbennarescann",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Dragonsworn Knight",
+			"subclassSource": "anbennarescann",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"You gain {@variantrule Resistance|XPHB} to damage type associated with your Dragon's Blood and range of your Dragonsworn Breath is increased to a 30-foot {@variantrule Cone [Area of Effect]|XPHB|Cone} or a 60-foot {@variantrule Line [Area of Effect]|XPHB|Line} that is 5 feet wide."
+			]
+		},
+		{
+			"name": "Dragon warrior",
+			"source": "anbennarescann",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Dragonsworn Knight",
+			"subclassSource": "anbennarescann",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"When using either Dragonsworn Breath or Dragon's presence, you can awaken draconic might within you as part of the same action. While in this awakened state, you become immune to the damage type associated with your Dragon's Blood and you deal an additional damage equal to double your Constitution Modifier of the same damage type on your Weapon attacks, Unarmed strikes and with your Dragonsworn Breath.",
+				"This transformation lasts for 1 minute or until you end it yourself as a free action. Once you use this feature, you can't use it again until you finish either a {@variantrule Short Rest|XPHB|Short} or a {@variantrule Long Rest|XPHB}."
+			]
+		},
+		{
+			"name": "Adult Dragon Form",
+			"source": "anbennarescann",
+			"className": "Fighter",
+			"classSource": "XPHB",
+			"subclassShortName": "Dragonsworn Knight",
+			"subclassSource": "anbennarescann",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"Once per month you can transform yourself into an adult version of a dragon associated with your Dragon's Blood for 1 hour. You maintain all of your class and subclass features while in this form."
+			]
 		}
-
 	]
 }
