@@ -180,43 +180,6 @@
 						}
 					},
 					"skillProficiencies": null
-				},
-				{
-					"name": "Kobold; Defiance",
-					"source": "anbennarescann",
-					"_mod": {
-						"entries": {
-							"mode": "replaceArr",
-							"replace": "Kobold Legacy",
-							"items": {
-								"name": "Kobold Legacy (Defiance)",
-								"type": "entries",
-								"entries": [
-									"You have advantage on saving throws to avoid or end the {@condition Frightened} condition on yourself."
-								]
-							}
-						}
-					},
-					"skillProficiencies": null,
-					"additionalSpells": null
-				},
-				{
-					"name": "Kobold; Draconic Sorcery",
-					"source": "anbennarescann",
-					"_mod": {
-						"entries": {
-							"mode": "replaceArr",
-							"replace": "Kobold Legacy",
-							"items": {
-								"name": "Kobold Legacy (Draconic Sorcery)",
-								"type": "entries",
-								"entries": [
-									"You know one {@filter cantrip of your choice from the sorcerer spell list|spells|level=0|class=Sorcerer}. Intelligence, Wisdom, or Charisma is your spellcasting ability for that cantrip (choose when you select this race)."
-								]
-							}
-						}
-					},
-					"skillProficiencies": null
 				}
 			]
 		},
