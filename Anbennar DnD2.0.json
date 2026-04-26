@@ -1,0 +1,363 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "anbennarhalann",
+				"full": "Anbennar: Adventures in Halann",
+				"abbreviation": "ANB:H",
+				"color": "245269",
+				"authors": [
+					"various"
+				],
+				"convertedBy": [
+					"Fireshark"
+				],
+				"version": "0.1"
+			}
+		],
+		"dependencies": {
+			"race": [
+				"XPHB",
+				"MPMM",
+				"VRGR"
+			]
+		},
+		"dateAdded": 1777194900, 
+		"dateLastModified": 1777194900,
+		"edition": "one",
+		"status": "ready"
+	},
+	"race": [
+		{
+			"name": "Gnoll",
+			"source": "anbennarhalann",
+			"edition": "one",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"traitTags": [
+				"Natural Weapon"
+			],
+			"sizeEntry": {
+				"type": "item",
+				"name": "Size:",
+				"entries": [
+					"Medium (about 6-8 feet tall)"
+				]
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Gnolls mature and can live a similar lifespan to humans but historically average around 30-40 years due to deaths from violence."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bite",
+					"entries": [
+						"Your bite is considered a unarmed strike with the light and nick properties. If you hit with it, you deal piercing damage equal to {@damage 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Scavenger",
+					"entries": [
+						"You gain {@variantrule resistance|XPHB} to poison damage, and you have {@variantrule Advantage|XPHB} on saving throws against disease and poison, and you automatically succeed Survival checks to scavenge for food for yourself as your body can digest raw and even rotting food."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rampage",
+					"entries": [
+						"Immediately after you reduce a creature to 0 hit points with a melee attack on your turn, you can use a bonus action to move up to half of your speed and make an additional attack with your bite or with a melee weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pack Animal",
+					"entries": [
+						"You can use the {@action Help|XPHB} action as a {@variantrule Bonus Action|XPHB}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Olf",
+			"source": "anbennarhalann",
+			"edition": "one",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"sizeEntry": {
+				"type": "item",
+				"name": "Size:",
+				"entries": [
+					"Medium (about 5-7 feet tall)"
+				]
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Olfs age at a similarly reduced rate to their Half-Elven kin. They mature slightly slower than Orcs, reaching adulthood at the age of 18, and tend to live around 160 years."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Orcish Might",
+					"entries": [
+						"Choose one of the following Orcish features."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Elven Guile",
+					"entries": [
+						"Choose one of the following Elven features."
+					]
+				}
+			],
+			"skillProficiencies": [
+				{
+					"intimidation": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": {
+						"int": true
+					},
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Wizard",
+								"count": 1
+							}
+						]
+					}
+				}
+			],
+			"_versions": [
+				{
+					"name": "Olf; Dookan’s Fortitude, Moonsinger’s Elegance",
+					"source": "anbennarhalann",
+					"_mod": {
+						"entries": {
+							"mode": "replaceArr",
+							"replace": "Orcish Might",
+							"items": {
+								"name": "Orcish Might (Dookan’s Fortitude)",
+								"type": "entries",
+								"entries": [
+									"You carry the resilience of the Chained God in your blood. When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. Once you use this trait, you can’t do so again until you finish a long rest."
+								]
+							}
+						}
+					},
+					"_mod": {
+						"entries": {
+							"mode": "replaceArr",
+							"replace": "Elven Guile",
+							"items": {
+								"name": "Elven Guile (Moonsinger’s Elegance)",
+								"type": "entries",
+								"entries": [
+									"Your mind sparks with the brilliance of the navigator-turned-god, Munas Moonsinger. You gain a cantrip of your choice from the Wizard spell list. Intelligence is your spellcasting ability for it."
+								]
+							}
+						}
+					},
+					"skillProficiencies": null
+				},
+				{
+					"name": "Kobold; Defiance",
+					"source": "anbennarescann",
+					"_mod": {
+						"entries": {
+							"mode": "replaceArr",
+							"replace": "Kobold Legacy",
+							"items": {
+								"name": "Kobold Legacy (Defiance)",
+								"type": "entries",
+								"entries": [
+									"You have advantage on saving throws to avoid or end the {@condition Frightened} condition on yourself."
+								]
+							}
+						}
+					},
+					"skillProficiencies": null,
+					"additionalSpells": null
+				},
+				{
+					"name": "Kobold; Draconic Sorcery",
+					"source": "anbennarescann",
+					"_mod": {
+						"entries": {
+							"mode": "replaceArr",
+							"replace": "Kobold Legacy",
+							"items": {
+								"name": "Kobold Legacy (Draconic Sorcery)",
+								"type": "entries",
+								"entries": [
+									"You know one {@filter cantrip of your choice from the sorcerer spell list|spells|level=0|class=Sorcerer}. Intelligence, Wisdom, or Charisma is your spellcasting ability for that cantrip (choose when you select this race)."
+								]
+							}
+						}
+					},
+					"skillProficiencies": null
+				}
+			]
+		},
+		{
+			"name": "Kitsune",
+			"source": "anbennarhalann",
+			"edition": "one",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"traitTags": [
+				"Natural Weapon"
+			],
+			"darkvision": 60,
+			"sizeEntry": {
+				"type": "item",
+				"name": "Size:",
+				"entries": [
+					"Medium (about 4-7 feet tall)"
+				]
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Empyrean connection",
+					"entries": [
+						"Due to their deep connection with the spirit realm, Kitsunes count as extraplanar for the effects of spells such as {@spell Detect Evil and Good|Detect|XPHB} or {@spell Protection from Evil and Good|XPHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bite",
+					"entries": [
+						"You have sharp fangs that enable you to make natural bite attacks. Your bite is considered a unarmed strike with the finesse, light and nick properties. If you hit with it, you deal piercing damage equal to {@damage 1d6} + your Strength or your Dexterity modifier, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Change Shape",
+					"entries": [
+						"As a kitsune, you gain the Change Shape ability. Your can transform into an alternate tailess form  which is a common Medium humanoid ancestry prevalent where you grew up (typically human). This form is the same age and body type as your true form and has roughly analogous physical traits, such as hair color."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bewitching Guile",
+					"entries": [
+						"You know the  minor illusion cantrip. When you reach 3rd  and 5th level, you learn the charm person and suggestion spells  respectively. You always have those spells prepared. You can cast each one  once without a spell slot, and you regain the ability to cast then in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. You pick between Intelligence, Wisdom or Charisma as your spellcasting ability for these spells."
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"charm person|xphb"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"suggestion|xphb"
+								]
+							}
+						}
+					},
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"1": [
+							"minor illusion|xphb#c"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Harpy",
+			"source": "anbennarhalann",
+			"_copy": {
+				"name": "Aarakocra",
+				"source": "MPMM"
+			},
+			"edition": "one"
+		},
+		{
+			"name": "Planetouched",
+			"source": "anbennarhalann",
+			"_copy": {
+				"name": "Genasi",
+				"source": "MPMM"
+			},
+			"edition": "one"
+		},
+		{
+			"name": "Harimari",
+			"source": "anbennarhalann",
+			"_copy": {
+				"name": "Tabaxi",
+				"source": "MPMM"
+			},
+			"edition": "one"
+		},
+		{
+			"name": "Ogre/Oni",
+			"source": "anbennarhalann",
+			"_copy": {
+				"name": "Goliath",
+				"source": "XPHB"
+			},
+			"edition": "one"
+		},
+		{
+			"name": "Hag Born",
+			"source": "anbennarhalann",
+			"_copy": {
+				"name": "Hexblood",
+				"source": "VRGR"
+			},
+			"edition": "one"
+		},
+		{
+			"name": "Merfolk",
+			"source": "anbennarhalann",
+			"_copy": {
+				"name": "Triton",
+				"source": "MPMM"
+			},
+			"edition": "one"
+		}
+	]
+}
