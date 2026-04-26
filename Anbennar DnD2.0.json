@@ -4,7 +4,7 @@
 			{
 				"json": "anbennarhalann",
 				"full": "Anbennar: Adventures in Halann",
-				"abbreviation": "ANB:H",
+				"abbreviation": "ANBH",
 				"color": "245269",
 				"authors": [
 					"various"
@@ -12,7 +12,7 @@
 				"convertedBy": [
 					"Fireshark"
 				],
-				"version": "0.1"
+				"version": "1.0"
 			}
 		],
 		"dependencies": {
@@ -22,8 +22,8 @@
 				"VRGR"
 			]
 		},
-		"dateAdded": 1777194900, 
-		"dateLastModified": 1777194900,
+		"dateAdded": 1777201218, 
+		"dateLastModified": 1777201218,
 		"edition": "one",
 		"status": "ready"
 	},
@@ -39,6 +39,9 @@
 				"M"
 			],
 			"speed": 30,
+			"resist": [
+				"poison"
+			],
 			"traitTags": [
 				"Natural Weapon"
 			],
@@ -151,35 +154,193 @@
 			],
 			"_versions": [
 				{
-					"name": "Olf; Dookan’s Fortitude, Moonsinger’s Elegance",
+					"name": "Olf; Fortitude, Elegance",
 					"source": "anbennarhalann",
 					"_mod": {
-						"entries": {
-							"mode": "replaceArr",
-							"replace": "Orcish Might",
-							"items": {
-								"name": "Orcish Might (Dookan’s Fortitude)",
-								"type": "entries",
-								"entries": [
-									"You carry the resilience of the Chained God in your blood. When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. Once you use this trait, you can’t do so again until you finish a long rest."
-								]
+						"entries": [
+							{
+								"mode": "replaceArr",
+								"replace": "Orcish Might",
+								"items": {
+									"name": "Orcish Might (Dookan’s Fortitude)",
+									"type": "entries",
+									"entries": [
+										"You carry the resilience of the Chained God in your blood. When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. Once you use this trait, you can’t do so again until you finish a long rest."
+									]
+								}
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Elven Guile",
+								"items": {
+									"name": "Elven Guile (Moonsinger’s Elegance)",
+									"type": "entries",
+									"entries": [
+										"Your mind sparks with the brilliance of the navigator-turned-god, Munas Moonsinger. You gain a cantrip of your choice from the Wizard spell list. Intelligence is your spellcasting ability for it."
+									]
+								}
 							}
-						}
-					},
-					"_mod": {
-						"entries": {
-							"mode": "replaceArr",
-							"replace": "Elven Guile",
-							"items": {
-								"name": "Elven Guile (Moonsinger’s Elegance)",
-								"type": "entries",
-								"entries": [
-									"Your mind sparks with the brilliance of the navigator-turned-god, Munas Moonsinger. You gain a cantrip of your choice from the Wizard spell list. Intelligence is your spellcasting ability for it."
-								]
-							}
-						}
+						]
 					},
 					"skillProficiencies": null
+				},
+				{
+					"name": "Olf; Strength, Elegance",
+					"source": "anbennarhalann",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceArr",
+								"replace": "Orcish Might",
+								"items": {
+									"name": "Orcish Might (Dookanson’s Strength)",
+									"type": "entries",
+									"entries": [
+										"You carry the mighty temperament of Korgus Dookanson within your very bones. As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started. In addition, you gain proficiency in Intimidation."
+									]
+								}
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Elven Guile",
+								"items": {
+									"name": "Elven Guile (Moonsinger’s Elegance)",
+									"type": "entries",
+									"entries": [
+										"Your mind sparks with the brilliance of the navigator-turned-god, Munas Moonsinger. You gain a cantrip of your choice from the Wizard spell list. Intelligence is your spellcasting ability for it."
+									]
+								}
+							}
+						]
+					}
+				},
+				{
+					"name": "Olf; Fortitude, Swiftness",
+					"source": "anbennarhalann",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceArr",
+								"replace": "Orcish Might",
+								"items": {
+									"name": "Orcish Might (Dookan’s Fortitude)",
+									"type": "entries",
+									"entries": [
+										"You carry the resilience of the Chained God in your blood. When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. Once you use this trait, you can’t do so again until you finish a long rest."
+									]
+								}
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Elven Guile",
+								"items": {
+									"name": "Elven Guile (Jaher’s Swiftness)",
+									"type": "entries",
+									"entries": [
+										"You march at the pace of the greatest conqueror on Halann. Your base walking speed increases to 35 feet."
+									]
+								}
+							}
+						]
+					},
+					"speed": 35,
+					"skillProficiencies": null,
+					"additionalSpells": null
+				},
+				{
+					"name": "Olf; Strength, Swiftness",
+					"source": "anbennarhalann",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceArr",
+								"replace": "Orcish Might",
+								"items": {
+									"name": "Orcish Might (Dookanson’s Strength)",
+									"type": "entries",
+									"entries": [
+										"You carry the mighty temperament of Korgus Dookanson within your very bones. As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started. In addition, you gain proficiency in Intimidation."
+									]
+								}
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Elven Guile",
+								"items": {
+									"name": "Elven Guile (Jaher’s Swiftness)",
+									"type": "entries",
+									"entries": [
+										"You march at the pace of the greatest conqueror on Halann. Your base walking speed increases to 35 feet."
+									]
+								}
+							}
+						]
+					},
+					"speed": 35,
+					"additionalSpells": null
+				},
+				{
+					"name": "Olf; Fortitude, Subtlety",
+					"source": "anbennarhalann",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceArr",
+								"replace": "Orcish Might",
+								"items": {
+									"name": "Orcish Might (Dookan’s Fortitude)",
+									"type": "entries",
+									"entries": [
+										"You carry the resilience of the Chained God in your blood. When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. Once you use this trait, you can’t do so again until you finish a long rest."
+									]
+								}
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Elven Guile",
+								"items": {
+									"name": "Elven Guile (Feycourt’s Subtlety)",
+									"type": "entries",
+									"entries": [
+										"You carry the favour of the fey into many environments. You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+									]
+								}
+							}
+						]
+					},
+					"skillProficiencies": null,
+					"additionalSpells": null
+				},
+				{
+					"name": "Olf; Strength, Subtlety",
+					"source": "anbennarhalann",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "replaceArr",
+								"replace": "Orcish Might",
+								"items": {
+									"name": "Orcish Might (Dookanson’s Strength)",
+									"type": "entries",
+									"entries": [
+										"You carry the mighty temperament of Korgus Dookanson within your very bones. As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started. In addition, you gain proficiency in Intimidation."
+									]
+								}
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Elven Guile",
+								"items": {
+									"name": "Elven Guile (Feycourt’s Subtlety)",
+									"type": "entries",
+									"entries": [
+										"You carry the favour of the fey into many environments. You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+									]
+								}
+							}
+						]
+					},
+					"additionalSpells": null
 				}
 			]
 		},
