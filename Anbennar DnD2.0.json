@@ -428,60 +428,6 @@
 					}
 				}
 			]
-		},
-		{
-			"name": "Harpy",
-			"source": "anbennarhalann",
-			"_copy": {
-				"name": "Aarakocra",
-				"source": "MPMM"
-			},
-			"edition": "one"
-		},
-		{
-			"name": "Planetouched",
-			"source": "anbennarhalann",
-			"_copy": {
-				"name": "Genasi",
-				"source": "MPMM"
-			},
-			"edition": "one"
-		},
-		{
-			"name": "Harimari",
-			"source": "anbennarhalann",
-			"_copy": {
-				"name": "Tabaxi",
-				"source": "MPMM"
-			},
-			"edition": "one"
-		},
-		{
-			"name": "Ogre/Oni",
-			"source": "anbennarhalann",
-			"_copy": {
-				"name": "Goliath",
-				"source": "XPHB"
-			},
-			"edition": "one"
-		},
-		{
-			"name": "Hag Born",
-			"source": "anbennarhalann",
-			"_copy": {
-				"name": "Hexblood",
-				"source": "VRGR"
-			},
-			"edition": "one"
-		},
-		{
-			"name": "Merfolk",
-			"source": "anbennarhalann",
-			"_copy": {
-				"name": "Triton",
-				"source": "MPMM"
-			},
-			"edition": "one"
 		}
 	]
 }
